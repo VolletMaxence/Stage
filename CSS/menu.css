@@ -1,0 +1,47 @@
+body {
+    font-size: 120%;
+}
+
+#Header { /* Menus et titre supérieurs */
+    display: inline-block;
+    width: 100%;
+    opacity: 100%;
+    /*color: black; */
+    font-size: 75%;
+}
+h1 {
+    font-size: 200%;
+    display: inline;
+    color: rgb(218,112,214);
+}
+
+ul {
+    background-color: black;
+}
+
+#menu {
+    display: inline-block;
+    width: 85%;
+}
+
+#menu,
+#menu li {
+    list-style: none;
+    text-align: center;
+    color: rgb(169, 169, 169);
+}
+
+#menu li {
+    display: inline-block;
+    position: relative;
+    margin-left: 6%;
+}
+
+#menu a {
+    text-decoration: none;
+    color: rgb(169, 169, 169);
+}
+
+#menu a:hover {
+    color: rgb(138, 44, 228);
+}
