@@ -1,3 +1,13 @@
+body {
+    background-color: grey;
+}
+
+img {
+    width:650px;
+    padding:1px;
+    border:1px solid #021a40;
+}
+
 #image_presentation {
     margin-left: auto;
     margin-right: auto;
@@ -10,6 +20,3 @@
     text-align: center;
 }
 
-body {
-    background-color: grey;
-}

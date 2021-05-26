@@ -1,16 +1,18 @@
-<?php include "menu.php"; ?>
+<?php 
+    include "menu.php"; 
+?>
 
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <!-- Icone -->
         <link rel="icon" href="Image/icone.ico">
+        <!-- Lien CSS -->
         <link rel="stylesheet" href="CSS/index.css">
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Script pour le deffilement d'image -->
-        <script src="JS/index.js"></script>
+        <script src="JS/index.js"> </script>
         <!-- Titre -->
         <title>Au Grain de Pollen</title>
     </head>
@@ -24,7 +26,7 @@
         <!-- Image deffilante, on peut en ajouter autant que l'on veux -->
         <div id="deffil_image">
             <script language="javascript">
-                //StartAnim();
+                StartAnim();
             </script>
         </div>
 
