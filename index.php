@@ -1,7 +1,3 @@
-<?php 
-    include "menu.php"; 
-?>
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -17,18 +13,19 @@
         <title>Au Grain de Pollen</title>
     </head>
     <body>
-
+        <?php 
+            include "menu.php"; 
+        ?>
         <!-- Image simple -->
-        <div id="image_presentation">
-            <img id="image_presentation" src="Image/test/test.png" alt="Image page d'acceuil">
-        </div>
+        <div class=image1>
+            <img class="image_presentation" src="Image/test/test.png" alt="Image page d'acceuil">
+        </div> 
 
         <!-- Image deffilante, on peut en ajouter autant que l'on veux -->
-        <div id="deffil_image">
+        <div class=diapo>
             <script language="javascript">
                 StartAnim();
             </script>
         </div>
-
     </body>
 </html>
