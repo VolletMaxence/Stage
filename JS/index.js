@@ -52,7 +52,7 @@ function defilimg()
     if (version >= 3)
         {
         document.defil.src = imgPath[a];
-        tempo3 = setTimeout("defilimg()",5000);
+        tempo3 = setTimeout("defilimg()",5001);
         a++;
         }
     }
