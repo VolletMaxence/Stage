@@ -20,6 +20,10 @@
         <div class=image1>
             <img class="image_presentation" src="Image/test/test.png" alt="Image page d'acceuil">
         </div> 
+        <!-- Image simple -->
+        <div class=image2>
+            <img class="image_presentation" src="Image/test/test.png" alt="Image page d'acceuil">
+        </div> 
 
         <!-- Image deffilante, on peut en ajouter autant que l'on veux -->
         <div class=diapo>

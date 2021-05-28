@@ -8,37 +8,39 @@ body {
     width: 100%;
     opacity: 100%;
     font-size: 75%;
-    z-index: 1000;
     list-style: none;
 }
+
+#menu {
+    position:relative;
+    z-index:2;
+    background: black;
+ }
+
 /* texte "Au Grain de Pollen */
 h1 {
     font-size: 200%;
     /* retirer ca fait baisser le menu */
     display: inline;
     color: rgb(139,40,94);
+    text-align: center;
 }
 
 nav {
-	padding: 0; margin: 0;
-	text-align: center; /* centrer le texte */
-    margin-right: auto;
-    margin-left: auto;
+    margin-top: 80px;
 }
 
 #menu {
     display: inline-block;
-    width: 85%;
+    width: 75%;
     font-size: large;
-    margin-left: 25%;
     position: absolute;
 }
 #menu ul {
     margin:0;
     padding:0;
     list-style-type:none;
-    text-align:center;
-    background-color:black;
+    display: inline-block;
 }
 #menu li {
     float:left;
@@ -76,3 +78,5 @@ nav {
 #menu li#deroulant:hover ul li { 
     float:none;
 }
+
+
