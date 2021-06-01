@@ -29,7 +29,9 @@
                 //Si c'est la page d'acceuil
                 case "C:\wamp64\www\Stage" :
                     ?>
-                    <h1> <strong> Au Grain de Pollen </strong> </h1>
+                    <h1> 
+                        <strong> Au Grain de Pollen </strong> 
+                    </h1>
                     <nav id="menu">
                         <ul>
                             <!-- Ajouter les liens + changer nom -->
@@ -60,7 +62,9 @@
                 //Si c'est la page de bapthême
                 case "C:\wamp64\www\Stage\Site\Baptheme" :
                     ?>
-                    <h1> <strong> Au Grain de Pollen </strong> </h1>
+                    <h1> 
+                        <strong> Au Grain de Pollen </strong> 
+                    </h1>
                     <nav id="menu">
                         <ul>
                             <!-- Ajouter les liens + changer nom -->
@@ -88,7 +92,9 @@
                 //Si c'est la page de mariage
                 case "C:\wamp64\www\Stage\Site\Mariage" :
                     ?>
-                    <h1> <strong> Au Grain de Pollen </strong> </h1>
+                    <h1> 
+                        <strong> Au Grain de Pollen </strong> 
+                    </h1>
                     <nav id="menu">
                         <ul>
                             <!-- Ajouter les liens + changer nom -->
@@ -116,7 +122,9 @@
                 //Si c'est la page de deuil
                 case "C:\wamp64\www\Stage\Site\Deuil" :
                     ?>
-                    <h1> <strong> Au Grain de Pollen </strong> </h1>
+                    <h1> 
+                        <strong> Au Grain de Pollen </strong> 
+                    </h1>
                     <nav id="menu">
                         <ul>
                             <!-- Ajouter les liens + changer nom -->

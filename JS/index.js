@@ -8,17 +8,17 @@ if (version >= 3)
     {
     i0 = new Image;
     i0.src = 'Image/test/test.png';
-    SiClickGoTo[0] = "Site/Test/test.php"; //Là où l'utilisateur va si il clique sur l'image
+    SiClickGoTo[0] = "Site/Baptheme/Baptheme.php"; //Là où l'utilisateur va si il clique sur l'image
     imgPath[0] = i0.src;
 
     i1 = new Image;
-    i1.src = 'Image/test/test2.png';
-    SiClickGoTo[1] = "Lien1"; //Là où l'utilisateur va si il clique sur l'image
+    i1.src = 'Image/test/test3.png';
+    SiClickGoTo[1] = "Site/Mariage/Mariage.php"; //Là où l'utilisateur va si il clique sur l'image
     imgPath[1] = i1.src;
 
     i2 = new Image;
     i2.src = 'Image/test/test3.png';
-    SiClickGoTo[2] = "Lien2"; //Là où l'utilisateur va si il clique sur l'image
+    SiClickGoTo[2] = "Site/Deuil/Deuil.png"; //Là où l'utilisateur va si il clique sur l'image
     imgPath[2] = i2.src;
 
     //Possibiliter d'ajout d'image

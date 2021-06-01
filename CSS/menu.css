@@ -19,21 +19,23 @@ body {
 /* texte "Au Grain de Pollen */
 h1 {
     font-size: 200%;
-    /* retirer ca fait baisser le menu */
-    display: inline;
     color: rgb(139,40,94);
     text-align: center;
+    /* background-color: black; */
 }
 
 nav {
-    margin-top: 80px;
+    margin-top: 2%;
+    position: fixed;
 }
 
 #menu {
-    display: inline-block;
+    display: inline;
     width: 75%;
     font-size: large;
     position: absolute;
+    text-align: center;
+    margin-left: 10%;
 }
 #menu ul {
     margin:0;
