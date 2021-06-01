@@ -3,7 +3,8 @@ body {
     margin-top: 1%;
 }
 
-#Header { /* Menus et titre supérieurs */
+/* Menus et titre supérieurs */
+#Header {
     display: inline-block;
     width: 100%;
     opacity: 100%;
@@ -21,15 +22,19 @@ h1 {
     font-size: 200%;
     color: rgb(139,40,94);
     text-align: center;
-    /* background-color: black; */
     margin-top: -2%;
+    /* background-color: black; */
 }
 
 div {
     font-size: smaller;
     text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* Aligner verticalement le texte */
 }
 
+/* Taille image des infos */
 img#Telephone {
     width: 32px;
     height: 32px;
@@ -68,16 +73,19 @@ nav {
     color: rgb(161, 174, 193);
     width: 125px;
 }
+
 #menu li a {
     display: block;
     text-decoration: none;
     padding: 5px;
     color: rgb(161, 174, 193);
 }
+
 /* couleur lorsque la souris est dessus */
 #menu li#deroulant a:hover {
     color: rgb(192,149,176);
 }
+
 #menu li a:hover {
     color: rgb(192,149,176);
 }

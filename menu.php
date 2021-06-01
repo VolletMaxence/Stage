@@ -31,8 +31,8 @@
                 case "C:\wamp64\www\Stage" :
                     ?>
                     <div class=info>
-                        <img class=Adresse src="Image/test/Adresse.png" alt="Adresse"> 103 Route de Dieppe, 76950 Les Grandes-Ventes , 
-                        <img class=Telephone src="Image/test/Telephone.png" alt="Telephone"> 02 35 83 42 16
+                        <img class=Adresse src="Image/Menu/Adresse.png" alt="Adresse"> 103 Route de Dieppe, 76950 Les Grandes-Ventes , 
+                        <img class=Telephone src="Image/Menu/Telephone.png" alt="Telephone"> 02 35 83 42 16
                     </div>
 
                     <h1>
@@ -41,7 +41,7 @@
                     <nav id="menu">
                         <ul>
                             <li> <a> <U> <strong> Accueil </strong> </U> </a> </li>
-                            <li id="deroulant"> <a> Cérémonie ▼</a>
+                            <li id="deroulant"> <a href="Site/Ceremonie/Ceremonie.php"> Cérémonie ▼</a>
                                 <ul>
                                     <li> <a href="Site/Baptheme/Baptheme.php"> Bapthême </a> </li>
                                     <li> <a href="Site/Mariage/Mariage.php"> Mariage </a> </li>
@@ -56,13 +56,12 @@
                     break;
 
                 //SWITCH CASE POUR L'ONGLET CEREMONIE
-
-                //Si c'est la page de bapthême
-                case "C:\wamp64\www\Stage\Site\Baptheme" :
+                //Si c'est la page de Cérémonie
+                case "C:\wamp64\www\Stage\Site\Ceremonie" :
                     ?>
                     <div class=info>
-                        <img class=Adresse src="../../Image/test/Adresse.png" alt="Adresse"> 103 Route de Dieppe, 76950 Les Grandes-Ventes , 
-                        <img class=Telephone src="../../Image/test/Telephone.png" alt="Telephone"> 02 35 83 42 16
+                        <img class=Adresse src="../../Image/Menu/Adresse.png" alt="Adresse"> 103 Route de Dieppe, 76950 Les Grandes-Ventes , 
+                        <img class=Telephone src="../../Image/Menu/Telephone.png" alt="Telephone"> 02 35 83 42 16
                     </div>
                     <h1> 
                         <strong> Au Grain de Pollen </strong> 
@@ -71,7 +70,34 @@
                         <ul>
                             <!-- Ajouter les liens + changer nom -->
                             <li> <a href=../../index.php> Accueil </a> </li>
-                            <li id="deroulant"> <a> Cérémonie ▼</a>
+                            <li id="deroulant"> <a> <U> <strong> Cérémonie ▼ </strong> </U> </a>
+                                <ul>
+                                    <li> <a href="../../Site/Baptheme/Baptheme.php"> Bapthême </a> </li>
+                                    <li> <a href="../../Site/Mariage/Mariage.php"> Mariage </a> </li>
+                                    <li> <a href="../../Site/Deuil/Deuil.php"> Deuil </a> </li>
+                                </ul>
+                            </li>
+                            <li> <a href=../../Site/Colis/Colis.php> Colis </a></li>
+                            <li> <a href="../../Site/Apropos/Apropos.php"> À propos </a> </li>
+                        </ul>
+                    </nav>
+                    <?php
+                    break;
+                //Si c'est la page de bapthême
+                case "C:\wamp64\www\Stage\Site\Baptheme" :
+                    ?>
+                    <div class=info>
+                        <img class=Adresse src="../../Image/Menu/Adresse.png" alt="Adresse"> 103 Route de Dieppe, 76950 Les Grandes-Ventes , 
+                        <img class=Telephone src="../../Image/Menu/Telephone.png" alt="Telephone"> 02 35 83 42 16
+                    </div>
+                    <h1> 
+                        <strong> Au Grain de Pollen </strong> 
+                    </h1>
+                    <nav id="menu">
+                        <ul>
+                            <!-- Ajouter les liens + changer nom -->
+                            <li> <a href=../../index.php> Accueil </a> </li>
+                            <li id="deroulant"> <a href="../../Site/Ceremonie/Ceremonie.php"> <strong> Cérémonie ▼ </strong> </a>
                                 <ul>
                                     <li id="actuel"> <a> <U> <strong> Bapthême </strong> </U> </a> </li>
                                     <li> <a href="../../Site/Mariage/Mariage.php"> Mariage </a> </li>
@@ -88,8 +114,8 @@
                 case "C:\wamp64\www\Stage\Site\Mariage" :
                     ?>
                     <div class=info>
-                        <img class=Adresse src="../../Image/test/Adresse.png" alt="Adresse"> 103 Route de Dieppe, 76950 Les Grandes-Ventes , 
-                        <img class=Telephone src="../../Image/test/Telephone.png" alt="Telephone"> 02 35 83 42 16
+                        <img class=Adresse src="../../Image/Menu/Adresse.png" alt="Adresse"> 103 Route de Dieppe, 76950 Les Grandes-Ventes , 
+                        <img class=Telephone src="../../Image/Menu/Telephone.png" alt="Telephone"> 02 35 83 42 16
                     </div>
                     <h1> 
                         <strong> Au Grain de Pollen </strong> 
@@ -98,7 +124,7 @@
                         <ul>
                             <!-- Ajouter les liens + changer nom -->
                             <li> <a href=../../index.php> Accueil </a> </li>
-                            <li id="deroulant"> <a> Cérémonie ▼</a>
+                            <li id="deroulant"> <a href="../../Site/Ceremonie/Ceremonie.php"> Cérémonie ▼</a>
                                 <ul>
                                     <li> <a href="../../Site/Baptheme/Baptheme.php">Bapthême</a> </li>
                                     <li id="actuel"> <U> <strong> <a> Mariage </a> </U> </strong> </li>
@@ -115,8 +141,8 @@
                 case "C:\wamp64\www\Stage\Site\Deuil" :
                     ?>
                     <div class=info>
-                        <img class=Adresse src="../../Image/test/Adresse.png" alt="Adresse"> 103 Route de Dieppe, 76950 Les Grandes-Ventes , 
-                        <img class=Telephone src="../../Image/test/Telephone.png" alt="Telephone"> 02 35 83 42 16
+                        <img class=Adresse src="../../Image/Menu/Adresse.png" alt="Adresse"> 103 Route de Dieppe, 76950 Les Grandes-Ventes , 
+                        <img class=Telephone src="../../Image/Menu/Telephone.png" alt="Telephone"> 02 35 83 42 16
                     </div>
                     <h1> 
                         <strong> Au Grain de Pollen </strong> 
@@ -125,7 +151,7 @@
                         <ul>
                             <!-- Ajouter les liens + changer nom -->
                             <li> <a href=../../index.php> Accueil </a> </li>
-                            <li id="deroulant"> <a> Cérémonie ▼</a>
+                            <li id="deroulant"> <a href="../../Site/Ceremonie/Ceremonie.php"> Cérémonie ▼</a>
                                 <ul>
                                     <li> <a href="../../Site/Baptheme/Baptheme.php">Bapthême </a> </li>
                                     <li> <a href="../../Site/Mariage/Mariage.php"> Mariage </a> </li>
@@ -138,12 +164,13 @@
                     </nav>
                     <?php
                     break;
+
                 //Si page Colis :
                 case "C:\wamp64\www\Stage\Site\Colis" :
                     ?>
                     <div class=info>
-                        <img class=Adresse src="Image/test/Adresse.png" alt="Adresse"> 103 Route de Dieppe, 76950 Les Grandes-Ventes , 
-                        <img class=Telephone src="Image/test/Telephone.png" alt="Telephone"> 02 35 83 42 16
+                        <img class=Adresse src="../../Image/Menu/Adresse.png" alt="Adresse"> 103 Route de Dieppe, 76950 Les Grandes-Ventes , 
+                        <img class=Telephone src="../../Image/Menu/Telephone.png" alt="Telephone"> 02 35 83 42 16
                     </div>
                     <h1> 
                         <strong> Au Grain de Pollen </strong> 
@@ -152,7 +179,7 @@
                         <ul>
                             <!-- Ajouter les liens + changer nom -->
                             <li> <a href=../../index.php> Accueil </a> </li>
-                            <li id="deroulant"> <a> Cérémonie ▼</a>
+                            <li id="deroulant"> <a href="../../Site/Ceremonie/Ceremonie.php"> Cérémonie ▼</a>
                                 <ul>
                                     <li> <a href="../../Site/Baptheme/Baptheme.php">Bapthême </a> </li>
                                     <li> <a href="../../Site/Mariage/Mariage.php"> Mariage </a> </li>
@@ -165,12 +192,13 @@
                     </nav>
                     <?php
                     break;
+
                 //Si page A propos :
                 case "C:\wamp64\www\Stage\Site\Apropos" :
                     ?>
                     <div class=info>
-                        <img class=Adresse src="../../Image/test/Adresse.png" alt="Adresse"> 103 Route de Dieppe, 76950 Les Grandes-Ventes , 
-                        <img class=Telephone src="../../Image/test/Telephone.png" alt="Telephone"> 02 35 83 42 16
+                        <img class=Adresse src="../../Image/Menu/Adresse.png" alt="Adresse"> 103 Route de Dieppe, 76950 Les Grandes-Ventes , 
+                        <img class=Telephone src="../../Image/Menu/Telephone.png" alt="Telephone"> 02 35 83 42 16
                     </div>
                     <h1> 
                         <strong> Au Grain de Pollen </strong> 
@@ -180,7 +208,7 @@
                         <ul>
                             <!-- Ajouter les liens + changer nom -->
                             <li> <a href=../../index.php> Accueil </a> </li>
-                            <li id="deroulant"> <a> Cérémonie ▼</a>
+                            <li id="deroulant"> <a href="../../Site/Ceremonie/Ceremonie.php"> Cérémonie ▼</a>
                                 <ul>
                                     <li> <a href="../../Site/Baptheme/Baptheme.php">Bapthême </a> </li>
                                     <li> <a href="../../Site/Mariage/Mariage.php"> Mariage </a> </li>

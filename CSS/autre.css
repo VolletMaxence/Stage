@@ -8,6 +8,7 @@ img.image_presentation {
     width: 300px;
     height: 300px;
     padding: 1px;
+    transition: all 0.75s ease;
 }
 
 img.image_presentation:hover {
@@ -15,6 +16,7 @@ img.image_presentation:hover {
     display: block;
     float: none;
     transform: scale(1.1);
+    transition: all 0.75s ease;
 }
 
 /* Shellos */
