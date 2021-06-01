@@ -31,5 +31,14 @@
                 StartAnim();
             </script>
         </div>
+
+        <!-- Image simple -->
+        <div class=image3>
+            <img class="image_presentation" src="Image/test/test.png" alt="Image page d'acceuil">
+        </div> 
+        <!-- Image simple -->
+        <div class=image4>
+            <img class="image_presentation" src="Image/test/test.png" alt="Image page d'acceuil">
+        </div> 
     </body>
 </html>

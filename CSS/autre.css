@@ -1,0 +1,65 @@
+body {
+    background-color: grey;
+    z-index: 1;
+}
+
+/* Mettre toutes les images a la même taille */
+img.image_presentation {
+    width: 300px;
+    height: 300px;
+    padding: 1px;
+}
+
+img.image_presentation:hover {
+    padding: 1px;
+    display: block;
+    float: none;
+    transform: scale(1.1);
+}
+
+/* Shellos */
+div.image1 {
+    margin-top: 2%;
+    text-align: center;
+    position: absolute;
+    margin-left: 15%;
+}
+
+div.image2 {
+    margin-top: 22.5%;
+    text-align: center;
+    position: absolute;
+    margin-left: 15%;
+}
+
+/* Mag */
+div.image3 {
+    margin-top: 2%;
+    text-align: center;
+    position: absolute;
+    margin-left: 36%;
+}
+
+div.image4 {
+    margin-top: 22.5%;
+    text-align: center;
+    position: absolute;
+    margin-left: 36%;
+}
+
+/* Oni */
+div.image5 {
+    margin-top: 2%;
+    text-align: center;
+    position: absolute;
+    margin-left: 57%;
+}
+
+div.image6 {
+    margin-top: 22.5%;
+    text-align: center;
+    position: absolute;
+    margin-left: 57%;
+}
+
+/* Commencer redimmention pour Portable / Tablette à 1024 px */

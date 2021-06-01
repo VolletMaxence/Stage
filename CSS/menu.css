@@ -22,10 +22,25 @@ h1 {
     color: rgb(139,40,94);
     text-align: center;
     /* background-color: black; */
+    margin-top: -2%;
+}
+
+div {
+    font-size: smaller;
+    text-align: right;
+}
+
+img#Telephone {
+    width: 32px;
+    height: 32px;
+}
+img#Adresse {
+    width: 32px;
+    height: 32px;
 }
 
 nav {
-    margin-top: 2%;
+    margin-top: -1%;
     position: fixed;
 }
 
@@ -38,25 +53,25 @@ nav {
     margin-left: 10%;
 }
 #menu ul {
-    margin:0;
-    padding:0;
-    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
     display: inline-block;
 }
 #menu li {
-    float:left;
-    margin:auto;
-    padding:0;
-    background-color:black;
+    float: left;
+    margin: auto;
+    padding: 0;
+    background-color: black;
     list-style: none;
     text-align: center;
     color: rgb(161, 174, 193);
-    width:125px;
+    width: 125px;
 }
 #menu li a {
-    display:block;
-    text-decoration:none;
-    padding:5px;
+    display: block;
+    text-decoration: none;
+    padding: 5px;
     color: rgb(161, 174, 193);
 }
 /* couleur lorsque la souris est dessus */
@@ -73,11 +88,11 @@ nav {
 }
 
 #menu ul li#deroulant:hover ul {
-    display:block;
+    display: block;
 }
 
 #menu li#deroulant:hover ul li { 
-    float:none;
+    float: none;
 }
 
 
