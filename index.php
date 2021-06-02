@@ -18,11 +18,11 @@
         ?>
         <!-- Image simple -->
         <div class=image1>
-            <img class="image_presentation" src="Image/test/test.png" alt="Image page d'acceuil">
+            <img class="image_presentation" src="Image/test/photo_1" alt="Image page d'acceuil">
         </div> 
         <!-- Image simple -->
         <div class=image2>
-            <img class="image_presentation" src="Image/test/test.png" alt="Image page d'acceuil">
+            <img class="image_presentation" src="Image/test/photo_2" alt="Image page d'acceuil">
         </div> 
 
         <!-- Image deffilante, on peut en ajouter autant que l'on veux -->
@@ -34,11 +34,11 @@
 
         <!-- Image simple -->
         <div class=image3>
-            <img class="image_presentation" src="Image/test/test.png" alt="Image page d'acceuil">
+            <img class="image_presentation" src="Image/test/photo_3" alt="Image page d'acceuil">
         </div> 
         <!-- Image simple -->
         <div class=image4>
-            <img class="image_presentation" src="Image/test/test.png" alt="Image page d'acceuil">
+            <img class="image_presentation" src="Image/test/photo_4" alt="Image page d'acceuil">
         </div> 
     </body>
 </html>

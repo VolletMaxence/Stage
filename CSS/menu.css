@@ -29,9 +29,9 @@ h1 {
 div {
     font-size: smaller;
     text-align: right;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
     /* Aligner verticalement le texte */
+    vertical-align: middle;
 }
 
 /* Taille image des infos */

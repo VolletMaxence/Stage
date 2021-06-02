@@ -86,7 +86,7 @@
                 //Si c'est la page de bapthême
                 case "C:\wamp64\www\Stage\Site\Baptheme" :
                     ?>
-                    <div class=info>
+                    <div id=info>
                         <img class=Adresse src="../../Image/Menu/Adresse.png" alt="Adresse"> 103 Route de Dieppe, 76950 Les Grandes-Ventes , 
                         <img class=Telephone src="../../Image/Menu/Telephone.png" alt="Telephone"> 02 35 83 42 16
                     </div>

@@ -15,14 +15,12 @@ div.diapo {
     text-align: center;
     position: absolute;
     margin-left: 33%;
-    width: 450px;
-    height: 450px;
     padding: 1px;
 }
 
 div.image1 {
     /* Changer la position selon haut de page */
-    margin-top: 1%;
+    margin-top: 2%;
     text-align: center;
     position: absolute;
     margin-left: 10%;
@@ -30,7 +28,7 @@ div.image1 {
 
 div.image2 {
     /* Changer la position selon haut de page */
-    margin-top: 1%;
+    margin-top: 2%;
     text-align: center;
     position: absolute;
     margin-left: 66%;
@@ -38,7 +36,7 @@ div.image2 {
 
 div.image3 {
     /* Changer la position selon haut de page */
-    margin-top: 21%;
+    margin-top: 22.5%;
     text-align: center;
     position: absolute;
     margin-left: 10%;
@@ -46,7 +44,7 @@ div.image3 {
 
 div.image4 {
     /* Changer la position selon haut de page */
-    margin-top: 21%;
+    margin-top: 22.5%;
     text-align: center;
     position: absolute;
     margin-left: 66%;
