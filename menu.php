@@ -87,8 +87,8 @@
                 case "C:\wamp64\www\Stage\Site\Baptheme" :
                     ?>
                     <div id=info>
-                        <img class=Adresse src="../../Image/Menu/Adresse.png" alt="Adresse"> 103 Route de Dieppe, 76950 Les Grandes-Ventes , 
-                        <img class=Telephone src="../../Image/Menu/Telephone.png" alt="Telephone"> 02 35 83 42 16
+                        <img class=Adresse src="../../Image/Menu/Adresse.png" alt="Adresse"> <span> 103 Route de Dieppe, 76950 Les Grandes-Ventes , </span>
+                        <img class=Telephone src="../../Image/Menu/Telephone.png" alt="Telephone"> <span> 02 35 83 42 16 </span>
                     </div>
                     <h1> 
                         <strong> Au Grain de Pollen </strong> 
