@@ -31,8 +31,10 @@
                 case "C:\wamp64\www\Stage" :
                     ?>
                     <div class=info>
-                        <img class=Adresse src="Image/Menu/Adresse.png" alt="Adresse"> 103 Route de Dieppe, 76950 Les Grandes-Ventes , 
-                        <img class=Telephone src="Image/Menu/Telephone.png" alt="Telephone"> 02 35 83 42 16
+                    <a href="https://www.google.com/maps/place/103+Route+de+Dieppe,+76950+Les+Grandes-Ventes/@49.7857715,1.2272386,18z/data=!4m5!3m4!1s0x47e0ba3f9b9ae8a9:0x134999d243debbe9!8m2!3d49.7860085!4d1.2272253?hl=fr" >
+                            <img class=Adresse src="Image/Menu/Adresse.png" alt="Adresse"> <span> 103 Route de Dieppe, 76950 Les Grandes-Ventes </span>
+                    </a>  ,                         
+                    <img class=Telephone src="Image/Menu/Telephone.png" alt="Telephone"> 02 35 83 42 16
                     </div>
 
                     <h1>
@@ -60,8 +62,10 @@
                 case "C:\wamp64\www\Stage\Site\Ceremonie" :
                     ?>
                     <div class=info>
-                        <img class=Adresse src="../../Image/Menu/Adresse.png" alt="Adresse"> 103 Route de Dieppe, 76950 Les Grandes-Ventes , 
-                        <img class=Telephone src="../../Image/Menu/Telephone.png" alt="Telephone"> 02 35 83 42 16
+                    <a href="https://www.google.com/maps/place/103+Route+de+Dieppe,+76950+Les+Grandes-Ventes/@49.7857715,1.2272386,18z/data=!4m5!3m4!1s0x47e0ba3f9b9ae8a9:0x134999d243debbe9!8m2!3d49.7860085!4d1.2272253?hl=fr" >
+                            <img class=Adresse src="../../Image/Menu/Adresse.png" alt="Adresse"> <span> 103 Route de Dieppe, 76950 Les Grandes-Ventes </span>
+                    </a>  ,                        
+                    <img class=Telephone src="../../Image/Menu/Telephone.png" alt="Telephone"> 02 35 83 42 16
                     </div>
                     <h1> 
                         <strong> Au Grain de Pollen </strong> 
@@ -87,8 +91,10 @@
                 case "C:\wamp64\www\Stage\Site\Baptheme" :
                     ?>
                     <div id=info>
-                        <img class=Adresse src="../../Image/Menu/Adresse.png" alt="Adresse"> <span> 103 Route de Dieppe, 76950 Les Grandes-Ventes , </span>
-                        <img class=Telephone src="../../Image/Menu/Telephone.png" alt="Telephone"> <span> 02 35 83 42 16 </span>
+                        <a href="https://www.google.com/maps/place/103+Route+de+Dieppe,+76950+Les+Grandes-Ventes/@49.7857715,1.2272386,18z/data=!4m5!3m4!1s0x47e0ba3f9b9ae8a9:0x134999d243debbe9!8m2!3d49.7860085!4d1.2272253?hl=fr" >
+                            <img class=Adresse src="../../Image/Menu/Adresse.png" alt="Adresse"> <span> 103 Route de Dieppe, 76950 Les Grandes-Ventes </span>
+                        </a>  , 
+                        <img class=Telephone src="../../Image/Menu/Telephone.png" alt="Telephone"><span> 02 35 83 42 16 </span>
                     </div>
                     <h1> 
                         <strong> Au Grain de Pollen </strong> 
@@ -114,8 +120,10 @@
                 case "C:\wamp64\www\Stage\Site\Mariage" :
                     ?>
                     <div class=info>
-                        <img class=Adresse src="../../Image/Menu/Adresse.png" alt="Adresse"> 103 Route de Dieppe, 76950 Les Grandes-Ventes , 
-                        <img class=Telephone src="../../Image/Menu/Telephone.png" alt="Telephone"> 02 35 83 42 16
+                    <a href="https://www.google.com/maps/place/103+Route+de+Dieppe,+76950+Les+Grandes-Ventes/@49.7857715,1.2272386,18z/data=!4m5!3m4!1s0x47e0ba3f9b9ae8a9:0x134999d243debbe9!8m2!3d49.7860085!4d1.2272253?hl=fr" >
+                            <img class=Adresse src="../../Image/Menu/Adresse.png" alt="Adresse"> <span> 103 Route de Dieppe, 76950 Les Grandes-Ventes </span>
+                    </a>  ,                         
+                    <img class=Telephone src="../../Image/Menu/Telephone.png" alt="Telephone"> 02 35 83 42 16
                     </div>
                     <h1> 
                         <strong> Au Grain de Pollen </strong> 
@@ -141,8 +149,10 @@
                 case "C:\wamp64\www\Stage\Site\Deuil" :
                     ?>
                     <div class=info>
-                        <img class=Adresse src="../../Image/Menu/Adresse.png" alt="Adresse"> 103 Route de Dieppe, 76950 Les Grandes-Ventes , 
-                        <img class=Telephone src="../../Image/Menu/Telephone.png" alt="Telephone"> 02 35 83 42 16
+                    <a href="https://www.google.com/maps/place/103+Route+de+Dieppe,+76950+Les+Grandes-Ventes/@49.7857715,1.2272386,18z/data=!4m5!3m4!1s0x47e0ba3f9b9ae8a9:0x134999d243debbe9!8m2!3d49.7860085!4d1.2272253?hl=fr" >
+                            <img class=Adresse src="../../Image/Menu/Adresse.png" alt="Adresse"> <span> 103 Route de Dieppe, 76950 Les Grandes-Ventes </span>
+                    </a>  ,                         
+                    <img class=Telephone src="../../Image/Menu/Telephone.png" alt="Telephone"> 02 35 83 42 16
                     </div>
                     <h1> 
                         <strong> Au Grain de Pollen </strong> 
@@ -169,8 +179,10 @@
                 case "C:\wamp64\www\Stage\Site\Colis" :
                     ?>
                     <div class=info>
-                        <img class=Adresse src="../../Image/Menu/Adresse.png" alt="Adresse"> 103 Route de Dieppe, 76950 Les Grandes-Ventes , 
-                        <img class=Telephone src="../../Image/Menu/Telephone.png" alt="Telephone"> 02 35 83 42 16
+                    <a href="https://www.google.com/maps/place/103+Route+de+Dieppe,+76950+Les+Grandes-Ventes/@49.7857715,1.2272386,18z/data=!4m5!3m4!1s0x47e0ba3f9b9ae8a9:0x134999d243debbe9!8m2!3d49.7860085!4d1.2272253?hl=fr" >
+                            <img class=Adresse src="../../Image/Menu/Adresse.png" alt="Adresse"> <span> 103 Route de Dieppe, 76950 Les Grandes-Ventes </span>
+                    </a>  ,                         
+                    <img class=Telephone src="../../Image/Menu/Telephone.png" alt="Telephone"> 02 35 83 42 16
                     </div>
                     <h1> 
                         <strong> Au Grain de Pollen </strong> 
@@ -197,8 +209,10 @@
                 case "C:\wamp64\www\Stage\Site\Apropos" :
                     ?>
                     <div class=info>
-                        <img class=Adresse src="../../Image/Menu/Adresse.png" alt="Adresse"> 103 Route de Dieppe, 76950 Les Grandes-Ventes , 
-                        <img class=Telephone src="../../Image/Menu/Telephone.png" alt="Telephone"> 02 35 83 42 16
+                    <a href="https://www.google.com/maps/place/103+Route+de+Dieppe,+76950+Les+Grandes-Ventes/@49.7857715,1.2272386,18z/data=!4m5!3m4!1s0x47e0ba3f9b9ae8a9:0x134999d243debbe9!8m2!3d49.7860085!4d1.2272253?hl=fr" >
+                            <img class=Adresse src="../../Image/Menu/Adresse.png" alt="Adresse"> <span> 103 Route de Dieppe, 76950 Les Grandes-Ventes </span>
+                    </a>  ,                         
+                    <img class=Telephone src="../../Image/Menu/Telephone.png" alt="Telephone"> 02 35 83 42 16
                     </div>
                     <h1> 
                         <strong> Au Grain de Pollen </strong> 

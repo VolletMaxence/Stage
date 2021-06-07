@@ -16,6 +16,7 @@ div.diapo {
     position: absolute;
     margin-left: 33%;
     padding: 1px;
+    animation-delay: 1.5s;
 }
 
 div.image1 {
