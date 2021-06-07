@@ -42,3 +42,27 @@ div.image3 {
 
 /* Commencer redimmention pour Portable / Tablette à 1024 px 
 Mettre une image par une image les unes sous les autres ? */
+
+@media (max-width: 1024px) {
+
+    div.image1 {
+        margin-top: 7%;
+        text-align: center;
+        position: absolute;
+        margin-left: 28%;
+    }
+    
+    div.image2 {
+        margin-top: 47%;
+        text-align: center;
+        position: absolute;
+        margin-left: 28%;
+    }
+    
+    div.image3 {
+        margin-top: 87%;
+        text-align: center;
+        position: absolute;
+        margin-left: 28%;
+    }
+}

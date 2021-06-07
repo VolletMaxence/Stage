@@ -112,3 +112,45 @@ nav {
 }
 
 /* Canger le menu pour portable (ajouter boutton pour l'afficher // le réduire) */
+
+@media screen and (max-width: 1024px) and (min-width: 667px) {
+    /* texte "Au Grain de Pollen */
+    h1 {
+        font-size: 200%;
+        color: rgb(139,40,94);
+        text-align: center;
+        margin-top: 2%;
+        /* background-color: black; */
+    }
+
+    div {
+        font-size: smaller;
+        text-align: right;
+        margin: auto;
+        margin-right: 2%;
+        /* Aligner verticalement le texte */
+        vertical-align: middle;
+    }
+}
+
+@media screen and (max-width: 666px) {
+    div {
+        font-size: x-small;
+        text-align: right;
+        margin: auto;
+        /* Aligner verticalement le texte */
+        vertical-align: middle;
+    }
+
+    /* Changer pour que le menu prenne toute la largeur */
+    #menu li {
+        float: left;
+        margin: auto;
+        padding: 0;
+        background-color: black;
+        list-style: none;
+        text-align: center;
+        color: rgb(161, 174, 193);
+        width: 125px;
+    }
+}
