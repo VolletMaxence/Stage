@@ -72,18 +72,16 @@ nav {
     float: none;
 }
 
-/*
-@media screen and (min-width: 1025px) {
 
-    /* texte "Au Grain de Pollen 
+@media screen and (min-width: 1025px) {
+    /* texte "Au Grain de Pollen */
     h1 {
         font-size: 200%;
         color: rgb(139,40,94);
         text-align: center;
         margin-top: -2%;
-        /* background-color: black; 
+        /* background-color: black; */
     }
-
     #menu {
         display: inline;
         width: 75%;
@@ -92,7 +90,6 @@ nav {
         text-align: center;
         margin-left: 10%;
     }
-
     #menu ul {
         margin: 0;
         padding: 0;
@@ -110,7 +107,6 @@ nav {
         width: 125px;
     } 
 }
-
 /* Ecran "vide" : rajouter image caché ? */
 
     h1 {
@@ -127,7 +123,7 @@ nav {
         font-size: large;
         position: absolute;
         text-align: center;
-        margin-left: 10%;
+        margin-left: 12%;
     }
 
     #menu ul {
@@ -177,7 +173,7 @@ nav {
         color: rgb(139,40,94);
         text-align: center;
         margin-top: 0%;
-        margin-right: 25%;
+        margin-right: 0%;
         /* background-color: black; */
     }
 
@@ -187,7 +183,7 @@ nav {
         font-size: large;
         position: absolute;
         text-align: center;
-        margin-right: 25%;
+        margin-right: 23%;
     }
     #menu ul {
         margin: 0;
@@ -217,7 +213,7 @@ nav {
         color: rgb(139,40,94);
         text-align: center;
         margin-top: 2%;
-        margin-right: 30%;
+        margin-right: -20%;
         /* background-color: black; */
     }
 
@@ -231,6 +227,7 @@ nav {
         font-size: large;
         position: absolute;
         text-align: center;
+        margin-left: 23%;
     }
     
     #menu ul {
@@ -266,7 +263,7 @@ nav {
         font-size: 150%;
         color: rgb(139,40,94);
         margin-top: -2%;
-        margin-right: 30%;
+        margin-right: 5%;
         /* background-color: black; */
     }
 
@@ -276,7 +273,7 @@ nav {
         font-size: large;
         position: absolute;
         text-align: center;
-        margin-left: 3%;
+        margin-left: 20%;
     }
     
     #menu ul {
