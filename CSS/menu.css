@@ -12,20 +12,6 @@ body {
     list-style: none;
 }
 
-#menu {
-    position:relative;
-    z-index:2;
- }
-
-/* texte "Au Grain de Pollen */
-h1 {
-    font-size: 200%;
-    color: rgb(139,40,94);
-    text-align: center;
-    margin-top: -2%;
-    /* background-color: black; */
-}
-
 a {
     color: #000000;
 }
@@ -34,7 +20,7 @@ a:link {
     text-decoration: none;
 }
 
-div {
+div.info {
     font-size: smaller;
     text-align: right;
     margin: auto;
@@ -56,34 +42,7 @@ nav {
     margin-top: -1%;
     position: fixed;
 }
-@media screen and (min-width: 1025px) {
 
-    #menu {
-        display: inline;
-        width: 75%;
-        font-size: large;
-        position: absolute;
-        text-align: center;
-        margin-left: 10%;
-    }
-
-    #menu ul {
-        margin: 0;
-        padding: 0;
-        list-style-type: none;
-        display: inline-block;
-    }
-    #menu li {
-        float: left;
-        margin: auto;
-        padding: 0;
-        background-color: black;
-        list-style: none;
-        text-align: center;
-        color: rgb(161, 174, 193);
-        width: 125px;
-} 
-}
 #menu li a {
     display: block;
     text-decoration: none;
@@ -113,13 +72,17 @@ nav {
     float: none;
 }
 
-/* Ecran "vide" : rajouter image caché ? */
-@media screen and (min-width: 1400) and (max-width: 2560) {
-    
-}
+/*
+@media screen and (min-width: 1025px) {
 
-/* Changer disposition image */
-@media screen and (min-width: 1024px) and (max-width: 1400px) {
+    /* texte "Au Grain de Pollen 
+    h1 {
+        font-size: 200%;
+        color: rgb(139,40,94);
+        text-align: center;
+        margin-top: -2%;
+        /* background-color: black; 
+    }
 
     #menu {
         display: inline;
@@ -128,6 +91,103 @@ nav {
         position: absolute;
         text-align: center;
         margin-left: 10%;
+    }
+
+    #menu ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: inline-block;
+    }
+    #menu li {
+        float: left;
+        margin: auto;
+        padding: 0;
+        background-color: black;
+        list-style: none;
+        text-align: center;
+        color: rgb(161, 174, 193);
+        width: 125px;
+    } 
+}
+
+/* Ecran "vide" : rajouter image caché ? */
+
+    h1 {
+        font-size: 200%;
+        color: rgb(139,40,94);
+        text-align: center;
+        margin-top: -2%;
+        /* background-color: black; */
+    }
+
+    #menu {
+        display: inline;
+        width: 75%;
+        font-size: large;
+        position: absolute;
+        text-align: center;
+        margin-left: 10%;
+    }
+
+    #menu ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: inline-block;
+    }
+    #menu li {
+        float: left;
+        margin: auto;
+        padding: 0;
+        background-color: black;
+        list-style: none;
+        text-align: center;
+        color: rgb(161, 174, 193);
+        width: 125px;
+    } 
+
+
+@media screen and (min-width: 1400) and (max-width: 2560) {
+
+    div.info {
+        font-size: smaller;
+        text-align: right;
+        margin: auto;
+        display: none;
+        /* Aligner verticalement le texte */
+        vertical-align: middle;
+    }
+}
+
+
+
+
+
+/* Changer disposition image */
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+
+    div.info {
+        display: none;
+    }
+
+    /* texte "Au Grain de Pollen */
+    h1 {
+        font-size: 200%;
+        color: rgb(139,40,94);
+        text-align: center;
+        margin-top: 0%;
+        margin-right: 25%;
+        /* background-color: black; */
+    }
+
+    #menu {
+        display: inline;
+        width: 75%;
+        font-size: large;
+        position: absolute;
+        text-align: center;
+        margin-right: 25%;
     }
     #menu ul {
         margin: 0;
@@ -146,25 +206,23 @@ nav {
         width: 125px;
     } 
 }
-/* Changer le menu pour portable (ajouter boutton pour l'afficher // le réduire) */
 
+
+/* Changer le menu pour portable (ajouter boutton pour l'afficher // le réduire) */
 @media screen and (max-width: 1024px) and (min-width: 667px) {
+
     /* texte "Au Grain de Pollen */
     h1 {
         font-size: 200%;
         color: rgb(139,40,94);
         text-align: center;
         margin-top: 2%;
+        margin-right: 30%;
         /* background-color: black; */
     }
 
-    div {
-        font-size: smaller;
-        text-align: right;
-        margin: auto;
-        margin-right: 2%;
-        /* Aligner verticalement le texte */
-        vertical-align: middle;
+    div.info {
+        display: none;
     }
 
     #menu {
@@ -173,7 +231,6 @@ nav {
         font-size: large;
         position: absolute;
         text-align: center;
-        margin-left: 10%;
     }
     
     #menu ul {
@@ -191,10 +248,11 @@ nav {
         text-align: center;
         color: rgb(161, 174, 193);
         width: 125px;
+
     }
 }
 
-@media screen and (max-width: 667px) {
+@media screen and (max-width: 667px) and (min-width: 460px){
     /* Menus et titre supérieurs */
     #Header {
         width: 100%;
@@ -203,6 +261,39 @@ nav {
         list-style: none;
     }
 
+    /* texte "Au Grain de Pollen */
+    h1 {
+        font-size: 150%;
+        color: rgb(139,40,94);
+        margin-top: -2%;
+        margin-right: 30%;
+        /* background-color: black; */
+    }
+
+    #menu {
+        display: inline;
+        width: 75%;
+        font-size: large;
+        position: absolute;
+        text-align: center;
+        margin-left: 3%;
+    }
+    
+    #menu ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: inline-block;
+    }
+    #menu li {
+        float: left;
+        padding: 0;
+        background-color: black;
+        list-style: none;
+        text-align: center;
+        color: rgb(161, 174, 193);
+        width: 100px;
+    }
     #menu {
         position:relative;
         z-index:2;
@@ -217,18 +308,15 @@ nav {
         /* background-color: black; */
     }
 
-    div {
-        font-size: smaller;
-        text-align: right;
-        margin: auto;
-        /* Aligner verticalement le texte */
-        vertical-align: middle;
+    div.info {
+        display: none;
     }
 
     nav {
         position: fixed;
     }
 
+    /*
     #menu {
         display: inline;
         width: 75%;
@@ -247,6 +335,66 @@ nav {
         text-align: center;
         color: rgb(161, 174, 193);
         width: 125px;
+    }
+    */
+}
+
+
+
+
+
+@media screen and (max-width: 460px) and (min-width: 320px){
+    /* Menus et titre supérieurs */
+    #Header {
+        width: 100%;
+        opacity: 100%;
+        font-size: 75%;
+        list-style: none;
+    }
+
+    #menu {
+        position:relative;
+        z-index:2;
+    }
+
+    
+    /* texte "Au Grain de Pollen */
+    h1 {
+        font-size: 150%;
+        color: rgb(139,40,94);
+        margin-top: -1%;
+        margin-left: 5%;
+        /* background-color: black; */
+    }
+
+    div.info {
+        display: none;
+    }
+
+    #menu {
+        display: inline;
+        width: 75%;
+        font-size: large;
+        text-align: center;
+        margin-left: 10%;
+    }
+    
+    #menu ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: inline-block;
+    }
+    #menu li {
+        float: left;
+        margin: auto;
+        padding: 0;
+        background-color: black;
+        list-style-type: none;
+        text-align: center;
+        color: rgb(161, 174, 193);
+        width: 80px;
+        font-size: small;
     }
 
 }
