@@ -14,7 +14,12 @@
 
             date_default_timezone_set('Europe/Paris');
             $date = date('D m y G:i:s');
-            echo $date;
+
+            $Jour = date('D');
+            $Mois = date('m');
+            $Annee = date ('y');
+            $Heure = date ('G:i:s');
+            echo "Jour : ".$Jour.", Mois : ".$Mois.", Année : ".$Annee.", Heure : ".$Heure;
 
             /*
             Du mardi au vendredi : de 9h à 12h30 et de 14h30 à 17h45
