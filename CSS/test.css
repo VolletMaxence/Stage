@@ -1,0 +1,173 @@
+body {
+    background-color: grey;
+    font-size: 120%;
+    margin-top: 1%;
+}
+
+/* Menus et titre supérieurs */
+#Header {
+    display: inline-block;
+    width: 100%;
+    opacity: 100%;
+    font-size: 75%;
+    list-style: none;
+}
+
+#menu {
+    position:relative;
+    z-index:2;
+ }
+
+/* texte "Au Grain de Pollen */
+h1 {
+    font-size: 200%;
+    color: rgb(139,40,94);
+    text-align: center;
+    margin-top: -2%;
+    /* background-color: black; */
+}
+
+a {
+    color: #000000;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+div {
+    font-size: smaller;
+    text-align: right;
+    margin: auto;
+    /* Aligner verticalement le texte */
+    vertical-align: middle;
+}
+
+/* Taille image des infos */
+img#Telephone {
+    width: 32px;
+    height: 32px;
+}
+img#Adresse {
+    width: 32px;
+    height: 32px;
+}
+
+nav {
+    margin-top: -1%;
+    position: fixed;
+}
+
+#menu {
+    display: inline;
+    width: 75%;
+    font-size: large;
+    position: absolute;
+    text-align: center;
+    margin-left: 10%;
+}
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+}
+#menu li {
+    float: left;
+    margin: auto;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-align: center;
+    color: rgb(161, 174, 193);
+    width: 125px;
+}
+
+#menu li a {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(161, 174, 193);
+}
+
+/* couleur lorsque la souris est dessus */
+#menu li#deroulant a:hover {
+    color: rgb(192,149,176);
+}
+
+#menu li a:hover {
+    color: rgb(192,149,176);
+}
+
+/* Partit propre au fonctionnement du menu déroulant */
+#menu ul li#deroulant ul {
+    display: none;
+}
+
+#menu ul li#deroulant:hover ul {
+    display: block;
+}
+
+#menu li#deroulant:hover ul li { 
+    float: none;
+}
+
+@media screen and (max-width: 666px) {
+    /* Menus et titre supérieurs */
+    #Header {
+        width: 100%;
+        opacity: 100%;
+        font-size: 75%;
+        list-style: none;
+    }
+
+    #menu {
+        position:relative;
+        z-index:2;
+    }
+
+    /* texte "Au Grain de Pollen */
+    h1 {
+        font-size: 200%;
+        color: rgb(139,40,94);
+        text-align: center;
+        margin-top: 1%;
+        /* background-color: black; */
+    }
+
+    div {
+        font-size: smaller;
+        text-align: right;
+        margin: auto;
+        /* Aligner verticalement le texte */
+        vertical-align: middle;
+    }
+
+    nav {
+        position: fixed;
+    }
+
+    #menu {
+        display: inline;
+        font-size: large;
+        text-align: center;
+        margin-left: 0;
+        width: 125px;
+    }
+    #menu ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    #menu li {
+        float: left;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        list-style: none;
+        text-align: center;
+        color: rgb(161, 174, 193);
+        width: 125px;
+    }
+
+}

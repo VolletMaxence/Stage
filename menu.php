@@ -187,7 +187,7 @@
                     <h1> 
                         <strong> Au Grain de Pollen </strong> 
                     </h1>
-                    <nav id="menu">
+                    <nav id="menu" role="navigation">
                         <ul>
                             <!-- Ajouter les liens + changer nom -->
                             <li> <a href=../../index.php> Accueil </a> </li>
