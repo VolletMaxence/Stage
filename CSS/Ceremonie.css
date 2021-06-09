@@ -62,12 +62,12 @@ Mettre une image par une image les unes sous les autres ? */
 
 }
 
-@media screen and (max-width: 667px) and (min-width: 460px){
+@media screen and (max-width: 667px) and (min-width: 420px){
     div.image1 {
         margin-top: 7%;
         text-align: center;
         position: absolute;
-        margin-left: 2%;
+        margin-left: 15%;
     }
 
     div.image2 {
@@ -86,27 +86,57 @@ Mettre une image par une image les unes sous les autres ? */
     }
 }
 
-@media screen and (max-width: 460px) and (min-width: 320px){
+@media screen and (max-width: 420px) and (min-width: 370px){
     div.image1 {
         margin-top: 7%;
         text-align: center;
         position: absolute;
-        margin-left: 2%;
+        margin-left: 3%;
     }
 
     div.image2 {
-        margin-top: 90%;
+        margin-top: 120%;
         text-align: center;
         position: absolute;
-        margin-left: 2%;
+        margin-left: 3%;
     }
 
     /* ! Image 3 ne se reposissione pas ! */
     div.image3 {
-        margin-top: 175%;
+        margin-top: 233%;
         text-align: center;
         position: absolute;
-        margin-left: 2%;
+        margin-left: 3%;
+    }
+
+    img.image_presentation {
+        width: 350px;
+        height: 350px;
+        padding: 1px;
+    }
+}
+
+@media screen and (max-width: 370px) and (min-width: 320px){
+    div.image1 {
+        margin-top: 7%;
+        text-align: center;
+        position: absolute;
+        margin-left: 0.5%;
+    }
+
+    div.image2 {
+        margin-top: 120%;
+        text-align: center;
+        position: absolute;
+        margin-left: 1%;
+    }
+
+    /* ! Image 3 ne se reposissione pas ! */
+    div.image3 {
+        margin-top: 233%;
+        text-align: center;
+        position: absolute;
+        margin-left: 1%;
     }
 
     img.image_presentation {
