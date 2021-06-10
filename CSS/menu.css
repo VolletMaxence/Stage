@@ -274,7 +274,7 @@ nav {
         font-size: large;
         position: absolute;
         text-align: center;
-        margin-left: 20%;
+        margin-left: 11%;
     }
     
     #menu ul {
@@ -371,7 +371,7 @@ nav {
 
 }
 
-@media screen and (max-width: 370px) and (min-width: 320px){
+@media screen and (max-width: 370px){
     /* Menus et titre supérieurs */
     #Header {
         width: 100%;

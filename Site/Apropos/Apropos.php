@@ -34,7 +34,7 @@
             date_default_timezone_set('Europe/Paris');
             $date = date('D m y G:i:s');
 
-            $Ouverture = "?";
+            $Ouverture = "Detecte aucun jour";
             $Jour = date('D');
             $Mois = date('m');
             $Annee = date ('y');
@@ -50,12 +50,12 @@
                 break;
                 //Samedi
                 case "Sat" : 
-                    if ($Heure >= 9 && $Heure <= 19)
+                    if ($Heure >= 9 && $Heure < 19)
                     {
                         $Ouverture = "Le magazin est ouvert.";
-                    } else if ($Heure = 19 && $Minute > 45)
+                    } else if ($Heure = 19 && $Minute < 45)
                     {
-                        $Ouverture = "Le magazin est fermé.";
+                        $Ouverture = "Le magazin est ouvert.";
                     } 
                     else 
                     {
@@ -64,39 +64,53 @@
                 break;
                 //Dimanche
                 case "Sun" : 
-                    if ($Heure > 9 && $Heure < 12)
+                    if ($Heure >= 9 && $Heure < 12)
                     {
                         $Ouverture = "Le magazin est ouvert.";
-                    } else if ($Heure = 12 && $Minute > 30)
+                    } else if ($Heure = 12 && $Minute < 30)
                     {
-                        $Ouverture = "Le magazin est fermé.";
+                        $Ouverture = "Le magazin est ouvert.";
                     }
                     else 
                     {
                         $Ouverture = "Le magazin est fermée";
                     }
                 break;
+                //Reste de la semaine
                 default : 
-                    if ($Heure > 9 && $Heure < 12)
+                    //Matin
+                    if ($Heure >= 9 && $Heure < 12)
                     {
                         $Ouverture = "Le magazin est ouvert.";
 
-                        if ($Heure = 12 && $Minute > 30)
-                        {
-                        $Ouverture = "Le magazin est fermé, il réouvrira à 14h30.";
-                        }
-                    }
-                    else if ($Heure > 14 && $Heure < 17)
+                    } else if ($Heure = 12 && $Minute > 30)
+                    {
+                    $Ouverture = "Le magazin est fermé, il réouvrira à 14h30.";
+                    } else if ($Heure = 12 && $Minute <= 30)
+                    {
+                    $Ouverture = "Le magazin est ouvert.";
+
+                    //Après-Midi
+                    } else if ($Heure > 14 && $Heure < 17)
                     {
                         $Ouverture = "Le magazin est ouvert";
-
-                        if ($Heure = 14 && $Minute <= 30)
-                        {
-                            $Ouverture = "Le magazin est fermé, il réouvrira à 14h30.";
-                        } else if ($Heure = 17 && $Minute >= 45)
-                        {
-                            $Ouverture = "Le magazin est fermé";
-                        }
+                    //Quand il est 14h : 
+                    } else if ($Heure = 14 && $Minute < 30)
+                    {
+                        $Ouverture = "Le magazin est fermé, il réouvrira à 14h30.";
+                    } else if ($Heure = 14 && $Minute >= 30)
+                    {
+                        $Ouverture = "Le magazin est ouvert.";
+                    //Quand il est 17h :
+                    } else if ($Heure = 17 && $Minute >= 45)
+                    {
+                        $Ouverture = "Le magazin est fermé";
+                    } else if ($Heure = 17 && $Minute < 45)
+                    {
+                        $Ouverture = "Le magazin est ouvert";
+                    } else 
+                    {
+                        $Ouverture = "Le magazin est fermé";
                     }
             }
             echo "<div class=ouverture>";
