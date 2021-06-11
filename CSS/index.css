@@ -59,29 +59,277 @@ Mettre une image par une image les unes sous les autres ? */
 }
 
 @media screen and (min-width: 1020px) and (max-width: 1400px) {
+    div.image1 {
+        margin-top: 4%;
+        text-align: center;
+        position: absolute;
+        margin-left: 2%;
+    }
+    
+    div.image2 {
+        margin-top: 4%;
+        text-align: center;
+        position: absolute;
+        margin-left: 60%;
+    }
+    
+    /* Mag */
+    div.image3 {
+        margin-top: 60%;
+        text-align: center;
+        position: absolute;
+        margin-left: 2%;
+    }
+    
+    div.image4 {
+        margin-top: 60%;
+        text-align: center;
+        position: absolute;
+        margin-left: 60%;
+    }
 
+    img.image_presentation {
+        width: 550px;
+        height: 550px;
+    }
+    
+    div.diapo {
+        display: none;
+    }
 }
 
-@media screen and (min-width: 700px) and (max-width: 1020px) {
+@media screen and (min-width: 667px) and (max-width: 1020px) {
+    div.image1 {
+        margin-top: 4%;
+        text-align: center;
+        position: absolute;
+        margin-left: 3%;
+    }
+    
+    div.image2 {
+        margin-top: 4%;
+        text-align: center;
+        position: absolute;
+        margin-left: 60%;
+    }
+    
+    /* Mag */
+    div.image3 {
+        margin-top: 60%;
+        text-align: center;
+        position: absolute;
+        margin-left: 3%;
+    }
+    
+    div.image4 {
+        margin-top: 60%;
+        text-align: center;
+        position: absolute;
+        margin-left: 60%;
+    }
 
+    img.image_presentation {
+        width: 400px;
+        height: 400px;
+    }
+    
+    div.diapo {
+        display: none;
+    }
 }
 
-@media screen and (max-width: 700px) and (min-width: 510px) {
+@media screen and (max-width: 667px) and (min-width: 420px) {
+    div.image1 {
+        margin-top: 3%;
+        text-align: center;
+        position: absolute;
+        margin-left: 13%;
+    }
+    
+    div.image2 {
+        margin-top: 75%;
+        text-align: center;
+        position: absolute;
+        margin-left: 13%;
+    }
+    
+    /* Mag */
+    div.image3 {
+        margin-top: 147%;
+        text-align: center;
+        position: absolute;
+        margin-left: 13%;
+    }
+    
+    div.image4 {
+        margin-top: 220%;
+        text-align: center;
+        position: absolute;
+        margin-left: 13%;
+    }
 
+    img.image_presentation {
+        width: 375px;
+        height: 375px;
+    }
+    
+    div.diapo {
+        display: none;
+    }
 }
 
-@media screen and (max-width: 510px) and (min-width: 410px){
+@media screen and (max-width: 420px) and (min-width: 410px){
+    div.image1 {
+        margin-top: 3%;
+        text-align: center;
+        position: absolute;
+        margin-left: 6%;
+    }
+    
+    div.image2 {
+        margin-top: 95%;
+        text-align: center;
+        position: absolute;
+        margin-left: 6%;
+    }
+    
+    div.image3 {
+        margin-top: 185%;
+        text-align: center;
+        position: absolute;
+        margin-left: 6%;
+    }
+    
+    div.image4 {
+        margin-top: 275%;
+        text-align: center;
+        position: absolute;
+        margin-left: 6%;
+    }
 
+    img.image_presentation {
+        width: 350px;
+        height: 350px;
+    }
+    
+    div.diapo {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 410px) and (min-width: 370px){
+    div.image1 {
+        margin-top: 3%;
+        text-align: center;
+        position: absolute;
+        margin-left: 5%;
+    }
+    
+    div.image2 {
+        margin-top: 94%;
+        text-align: center;
+        position: absolute;
+        margin-left: 5%;
+    }
+    
+    div.image3 {
+        margin-top: 184%;
+        text-align: center;
+        position: absolute;
+        margin-left: 5%;
+    }
+    
+    div.image4 {
+        margin-top: 274%;
+        text-align: center;
+        position: absolute;
+        margin-left: 5%;
+    }
 
+    img.image_presentation {
+        width: 325px;
+        height: 325px;
+    }
+    
+    div.diapo {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 370px) and (min-width: 310px){
+    div.image1 {
+        margin-top: 1%;
+        text-align: center;
+        position: absolute;
+        margin-left: 5%;
+    }
+    
+    div.image2 {
+        margin-top: 90%;
+        text-align: center;
+        position: absolute;
+        margin-left: 5%;
+    }
+    
+    div.image3 {
+        margin-top: 180%;
+        text-align: center;
+        position: absolute;
+        margin-left: 5%;
+    }
+    
+    div.image4 {
+        margin-top: 270%;
+        text-align: center;
+        position: absolute;
+        margin-left: 5%;
+    }
 
+    img.image_presentation {
+        width: 275px;
+        height: 275px;
+    }
+
+    div.diapo {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 310px) and (min-width: 270px){
+    div.image1 {
+        margin-top: 2%;
+        text-align: center;
+        position: absolute;
+        margin-left: 1%;
+    }
+    
+    div.image2 {
+        margin-top: 97%;
+        text-align: center;
+        position: absolute;
+        margin-left: 1%;
+    }
+    
+    div.image3 {
+        margin-top: 192%;
+        text-align: center;
+        position: absolute;
+        margin-left: 1%;
+    }
+    
+    div.image4 {
+        margin-top: 287%;
+        text-align: center;
+        position: absolute;
+        margin-left: 1%;
+    }
 
+    div.diapo {
+        display: none;
+    }
+
+    img.image_presentation {
+        width: 260px;
+        height: 260px;
+    }
 }
