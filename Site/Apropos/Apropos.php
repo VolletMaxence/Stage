@@ -27,7 +27,7 @@
                 <p> Dimanche : 9h - 12h30</p>
             </div>
 
-            <img class="magazin" src="../../Image/test/photo_9" alt="Devanture du magazin">
+            <img class="magazin" src="../../../Image/test/photo_9.JPG" alt="Devanture du magazin">
 
         </div>
         <?php

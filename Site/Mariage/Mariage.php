@@ -14,20 +14,20 @@
         ?>
         <!-- Image simple -->
         <div class=image1>
-            <img class="image_presentation" src="../../Image/test/photo_7" alt="Image 1">
+            <img class="image_presentation" src="../../Image/test/photo_7.JPG" alt="Image 1">
         </div> 
         <!-- Image simple -->
         <div class=image2>
-            <img class="image_presentation" src="../../Image/test/photo_8" alt="Image 2">
+            <img class="image_presentation" src="../../Image/test/photo_8.JPG" alt="Image 2">
         </div> 
 
         <!-- Image simple -->
         <div class=image3>
-            <img class="image_presentation" src="../../Image/test/photo_9" alt="Image 3">
+            <img class="image_presentation" src="../../Image/test/photo_9.JPG" alt="Image 3">
         </div> 
         <!-- Image simple -->
         <div class=image4>
-            <img class="image_presentation" src="../../Image/test/photo_10" alt="Image 4">
+            <img class="image_presentation" src="../../Image/test/photo_10.JPG" alt="Image 4">
         </div> 
 
         <!-- Image simple -->
