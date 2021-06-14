@@ -123,7 +123,10 @@ Mettre une image par une image les unes sous les autres ? */
     }
     
     img.image_presentation:hover {
-        display: none;
+        padding: 1px;
+        display: block;
+        float: none;
+        transform: scale(1.0);
     }
 }
 
@@ -178,7 +181,10 @@ Mettre une image par une image les unes sous les autres ? */
     }
     
     img.image_presentation:hover {
-        display: none;
+        padding: 1px;
+        display: block;
+        float: none;
+        transform: scale(1.0);
     }
 }
 
@@ -233,7 +239,10 @@ Mettre une image par une image les unes sous les autres ? */
     }
     
     img.image_presentation:hover {
-        display: none;
+        padding: 1px;
+        display: block;
+        float: none;
+        transform: scale(1.0);
     }
 }
 
@@ -286,7 +295,10 @@ Mettre une image par une image les unes sous les autres ? */
     }
     
     img.image_presentation:hover {
-        display: none;
+        padding: 1px;
+        display: block;
+        float: none;
+        transform: scale(1.0);
     }
 }
 
@@ -339,7 +351,10 @@ Mettre une image par une image les unes sous les autres ? */
     }
     
     img.image_presentation:hover {
-        display: none;
+        padding: 1px;
+        display: block;
+        float: none;
+        transform: scale(1.0);
     }
 }
 
@@ -392,7 +407,10 @@ Mettre une image par une image les unes sous les autres ? */
     }
     
     img.image_presentation:hover {
-        display: none;
+        padding: 1px;
+        display: block;
+        float: none;
+        transform: scale(1.0);
     }
 }
 
@@ -443,8 +461,11 @@ Mettre une image par une image les unes sous les autres ? */
         width: 250px;
         height: 250px;
     }
-    
+
     img.image_presentation:hover {
-        display: none;
+        padding: 1px;
+        display: block;
+        float: none;
+        transform: scale(1.0);
     }
 }

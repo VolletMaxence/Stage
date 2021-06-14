@@ -224,11 +224,10 @@ nav {
 
     #menu {
         display: inline;
-        width: 75%;
+        width: 100%;
         font-size: large;
         position: absolute;
         text-align: center;
-        margin-left: 23%;
     }
     
     #menu ul {
@@ -245,7 +244,7 @@ nav {
         list-style: none;
         text-align: center;
         color: rgb(161, 174, 193);
-        width: 125px;
+        width: 175px;
 
     }
 }

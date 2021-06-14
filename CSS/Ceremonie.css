@@ -81,6 +81,13 @@ Mettre une image par une image les unes sous les autres ? */
         width: 500px;
         height: 500px;
     }
+
+    img.image_presentation:hover {
+        padding: 1px;
+        display: block;
+        float: none;
+        transform: scale(1.01);
+    }
 }
 
 @media screen and (min-width: 700px) and (max-width: 1020px) {
@@ -109,6 +116,13 @@ Mettre une image par une image les unes sous les autres ? */
     img.image_presentation {
         width: 375px;
         height: 375px;
+    }
+
+    img.image_presentation:hover {
+        padding: 1px;
+        display: block;
+        float: none;
+        transform: scale(1.0);
     }
 }
 
@@ -140,6 +154,13 @@ Mettre une image par une image les unes sous les autres ? */
         width: 460px;
         height: 460px;
     }
+
+    img.image_presentation:hover {
+        padding: 1px;
+        display: block;
+        float: none;
+        transform: scale(1.0);
+    }
 }
 
 @media screen and (max-width: 510px) and (min-width: 410px){
@@ -168,6 +189,13 @@ Mettre une image par une image les unes sous les autres ? */
     img.image_presentation {
         width: 350px;
         height: 350px;
+    }
+
+    img.image_presentation:hover {
+        padding: 1px;
+        display: block;
+        float: none;
+        transform: scale(1.0);
     }
 }
 
@@ -198,6 +226,13 @@ Mettre une image par une image les unes sous les autres ? */
         width: 350px;
         height: 350px;
     }
+
+    img.image_presentation:hover {
+        padding: 1px;
+        display: block;
+        float: none;
+        transform: scale(1.0);
+    }
 }
 
 @media screen and (max-width: 370px) and (min-width: 310px){
@@ -227,6 +262,13 @@ Mettre une image par une image les unes sous les autres ? */
         width: 300px;
         height: 300px;
     }
+
+    img.image_presentation:hover {
+        padding: 1px;
+        display: block;
+        float: none;
+        transform: scale(1.0);
+    }
 }
 
 @media screen and (max-width: 310px) and (min-width: 270px){
@@ -254,5 +296,12 @@ Mettre une image par une image les unes sous les autres ? */
     img.image_presentation {
         width: 260px;
         height: 260px;
+    }
+
+    img.image_presentation:hover {
+        padding: 1px;
+        display: block;
+        float: none;
+        transform: scale(1.0);
     }
 }
