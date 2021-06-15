@@ -1,23 +1,24 @@
 body {
-    background-color: grey;
+    background-color: rgb(56, 56, 56);
     z-index: 1;
+    color: #FF00FF;
 }
 
 img.magazin {
-    width: 630px;
-    height: 630px;
-    margin-top: -39%;
-    margin-left: 5%;
+    width: 560px;
+    height: 560px;
+    margin-top: -125%;
+    margin-left: 15%;
 }
 
 div.horaire {
-    margin-left: 50%;
-    margin-top: 10%;
+    margin-left: 65%;
+    margin-top: -40%;
     font-size: xx-large;
 }
 
 div.ouverture {
-    margin-left: 55%;
+    margin-left: 60%;
     margin-top: -40%;
     font-size: xx-large;
     font-weight: bold;
@@ -63,8 +64,8 @@ div.info2 {
     }
 
     img.magazin {
-        width: 630px;
-        height: 630px;
+        width: 650px;
+        height: 650px;
         margin-top: -66%;
         margin-left: 1%;
     }
@@ -228,7 +229,7 @@ div.info2 {
 
     div.ouverture {
         margin-left: 22%;
-        margin-top: -100%;
+        margin-top: -95%;
         font-size: medium;
         font-weight: bold;
     }
