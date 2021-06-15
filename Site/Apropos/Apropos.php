@@ -110,5 +110,9 @@
                 echo $Ouverture;
             echo "</div>";
         ?>
+        <div class=info2> 
+            <p>Contactez-nous au <strong>02 35 83 42 16</strong>. </p>
+            <p> Retrouvez le magazin au <strong>103 Route de Dieppe, 76950 Les Grandes-Ventes</strong>. </p>
+        </div>
     </body>
 </html>
