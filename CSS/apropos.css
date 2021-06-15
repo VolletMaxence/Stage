@@ -76,8 +76,32 @@ div.info2 {
         font-size: xx-large;
     }
 }
+ @media screen and (max-width: 1020px) and (min-width: 800px) {
+    div.ouverture {
+        margin-left: 22%;
+        margin-top: -67%;
+        font-size: xx-large;
+        font-weight: bold;
+    }
 
-@media screen and (max-width: 1020px) and (min-width: 667px) {
+    div.horaire {
+        margin-left: 25%;
+        margin-top: 25%;
+        font-size:xx-large;
+    }
+
+    img.magazin {
+        display: none;
+    }
+
+    div.info2 {
+        margin-top: 75%;
+        visibility: visible;
+        font-size: 175%;
+    }
+ }
+
+@media screen and (max-width: 800px) and (min-width: 667px) {
 
     div.ouverture {
         margin-left: 22%;
@@ -103,8 +127,63 @@ div.info2 {
     }
 }
 
-@media screen and (max-width: 667px) and (min-width: 530px){
+@media screen and (max-width: 667px) and (min-width: 600px) {
+    div.ouverture {
+        margin-left: 45%;
+        margin-top: -45%;
+        font-size: medium;
+        font-weight: bold;
+    }
 
+    div.horaire {
+        margin-left: 45%;
+        margin-top: 10%;
+        font-size:medium;
+    }
+
+    img.magazin {
+        width: 230px;
+        height: 230px;
+        margin-top: -44%;
+        margin-left: 0.25%;
+        position:absolute;
+    }
+
+    div.info2 {
+        margin-top: 45%;
+        visibility: visible;
+    }
+}
+
+ @media screen and (max-width: 600px) and (min-width: 575px) {
+    div.ouverture {
+        margin-left: 35%;
+        margin-top: -50%;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    div.horaire {
+        margin-left: 45%;
+        margin-top: 10%;
+        font-size:medium;
+    }
+
+    img.magazin {
+        width: 230px;
+        height: 230px;
+        margin-top: -44%;
+        margin-left: 0.25%;
+        position:absolute;
+    }
+
+    div.info2 {
+        margin-top: 45%;
+        visibility: visible;
+    }
+ }
+
+@media screen and (max-width: 575px) and (min-width: 530px){
     div.ouverture {
         margin-left: 35%;
         margin-top: -55%;
