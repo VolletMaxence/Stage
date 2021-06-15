@@ -247,7 +247,121 @@ Mettre une image par une image les unes sous les autres ? */
     }
 }
 
-@media screen and (max-width: 667px) and (min-width: 420px) {
+@media screen and (max-width: 667px) and (min-width: 530px) {
+    div.image1 {
+        margin-top: 3%;
+        text-align: center;
+        position: absolute;
+        margin-left: 17%;
+    }
+    
+    div.image2 {
+        margin-top: 75%;
+        text-align: center;
+        position: absolute;
+        margin-left: 17%;
+    }
+    
+    /* Mag */
+    div.image3 {
+        margin-top: 147%;
+        text-align: center;
+        position: absolute;
+        margin-left: 17%;
+    }
+    
+    div.image4 {
+        margin-top: 220%;
+        text-align: center;
+        position: absolute;
+        margin-left: 17%;
+    }
+    
+    /* Oni */
+    div.image5 {
+        margin-top: 293%;
+        text-align: center;
+        position: absolute;
+        margin-left: 17%;
+    }
+    
+    div.image6 {
+        margin-top: 367%;
+        text-align: center;
+        position: absolute;
+        margin-left: 17%;
+    }
+
+    img.image_presentation {
+        width: 375px;
+        height: 375px;
+    }
+    
+    img.image_presentation:hover {
+        padding: 1px;
+        display: block;
+        float: none;
+        transform: scale(1.0);
+    }
+}
+
+@media screen and (max-width: 530px) and (min-width: 500px) {
+    div.image1 {
+        margin-top: 3%;
+        text-align: center;
+        position: absolute;
+        margin-left: 12%;
+    }
+    
+    div.image2 {
+        margin-top: 75%;
+        text-align: center;
+        position: absolute;
+        margin-left: 12%;
+    }
+    
+    div.image3 {
+        margin-top: 165%;
+        text-align: center;
+        position: absolute;
+        margin-left: 12%;
+    }
+    
+    div.image4 {
+        margin-top: 255%;
+        text-align: center;
+        position: absolute;
+        margin-left: 12%;
+    }
+    
+    div.image5 {
+        margin-top: 345%;
+        text-align: center;
+        position: absolute;
+        margin-left: 12%;
+    }
+    
+    div.image6 {
+        margin-top: 425%;
+        text-align: center;
+        position: absolute;
+        margin-left: 12%;
+    }
+
+    img.image_presentation {
+        width: 375px;
+        height: 375px;
+    }
+    
+    img.image_presentation:hover {
+        padding: 1px;
+        display: block;
+        float: none;
+        transform: scale(1.0);
+    }
+}
+
+@media screen and (max-width: 500px) and (min-width: 470px) {
     div.image1 {
         margin-top: 3%;
         text-align: center;
@@ -256,37 +370,35 @@ Mettre une image par une image les unes sous les autres ? */
     }
     
     div.image2 {
-        margin-top: 75%;
+        margin-top: 80%;
         text-align: center;
         position: absolute;
         margin-left: 10%;
     }
     
-    /* Mag */
     div.image3 {
-        margin-top: 147%;
+        margin-top: 155%;
         text-align: center;
         position: absolute;
         margin-left: 10%;
     }
     
     div.image4 {
-        margin-top: 220%;
+        margin-top: 230%;
         text-align: center;
         position: absolute;
         margin-left: 10%;
     }
     
-    /* Oni */
     div.image5 {
-        margin-top: 293%;
+        margin-top: 305%;
         text-align: center;
         position: absolute;
         margin-left: 10%;
     }
     
     div.image6 {
-        margin-top: 367%;
+        margin-top: 380%;
         text-align: center;
         position: absolute;
         margin-left: 10%;
@@ -305,6 +417,62 @@ Mettre une image par une image les unes sous les autres ? */
     }
 }
 
+@media screen and (max-width: 470px) and (min-width: 420px){
+    div.image1 {
+        margin-top: 3%;
+        text-align: center;
+        position: absolute;
+        margin-left: 13%;
+    }
+    
+    div.image2 {
+        margin-top: 89%;
+        text-align: center;
+        position: absolute;
+        margin-left: 13%;
+    }
+    
+    div.image3 {
+        margin-top: 174%;
+        text-align: center;
+        position: absolute;
+        margin-left: 13%;
+    }
+    
+    div.image4 {
+        margin-top: 260%;
+        text-align: center;
+        position: absolute;
+        margin-left: 13%;
+    }
+    
+    div.image5 {
+        margin-top: 345%;
+        text-align: center;
+        position: absolute;
+        margin-left: 6%;
+    }
+    
+    div.image6 {
+        margin-top: 430%;
+        text-align: center;
+        position: absolute;
+        margin-left: 13%;
+    }
+
+    img.image_presentation {
+        width: 375px;
+        height: 375px;
+    }
+    
+    img.image_presentation:hover {
+        padding: 1px;
+        display: block;
+        float: none;
+        transform: scale(1.0);
+    }
+}
+    
 @media screen and (max-width: 420px) and (min-width: 410px){
     div.image1 {
         margin-top: 3%;
@@ -478,47 +646,47 @@ Mettre une image par une image les unes sous les autres ? */
         margin-top: 2%;
         text-align: center;
         position: absolute;
-        margin-left: 3%;
+        margin-left: 1%;
     }
     
     div.image2 {
         margin-top: 95%;
         text-align: center;
         position: absolute;
-        margin-left: 3%;
+        margin-left: 1%;
     }
     
     div.image3 {
         margin-top: 190%;
         text-align: center;
         position: absolute;
-        margin-left: 3%;
+        margin-left: 1%;
     }
     
     div.image4 {
         margin-top: 285%;
         text-align: center;
         position: absolute;
-        margin-left: 3%;
+        margin-left: 1%;
     }
     
     div.image5 {
         margin-top: 380%;
         text-align: center;
         position: absolute;
-        margin-left: 3%;
+        margin-left: 1%;
     }
     
     div.image6 {
         margin-top: 475%;
         text-align: center;
         position: absolute;
-        margin-left: 3%;
+        margin-left: 1%;
     }
 
     img.image_presentation {
-        width: 250px;
-        height: 250px;
+        width: 260px;
+        height: 260px;
     }
 
     img.image_presentation:hover {

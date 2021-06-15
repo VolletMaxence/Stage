@@ -103,7 +103,7 @@ div.info2 {
     }
 }
 
-@media screen and (max-width: 667px) and (min-width: 420px){
+@media screen and (max-width: 667px) and (min-width: 530px){
 
     div.ouverture {
         margin-left: 35%;
@@ -128,6 +128,78 @@ div.info2 {
 
     div.info2 {
         margin-top: 55%;
+        visibility: visible;
+    }
+}
+
+@media screen and (max-width: 530px) and (min-width: 490px) {
+    div.ouverture {
+        margin-left: 30%;
+        margin-top: -55%;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    div.horaire {
+        margin-left: 5%;
+        margin-top: 10%;
+        font-size:medium;
+    }
+
+    img.magazin {
+        display: none;
+    }
+
+    div.info2 {
+        margin-top: 70%;
+        visibility: visible;
+    }
+}
+
+@media screen and (max-width: 490px) and (min-width: 455px) {
+    div.ouverture {
+        margin-left: 30%;
+        margin-top: -60%;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    div.horaire {
+        margin-left: 5%;
+        margin-top: 10%;
+        font-size:medium;
+    }
+
+    img.magazin {
+        display: none;
+    }
+
+    div.info2 {
+        margin-top: 70%;
+        visibility: visible;
+    }
+}
+
+@media screen and (max-width: 455px) and (min-width: 420px) {
+    div.ouverture {
+        margin-left: 30%;
+        margin-top: -65%;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    div.horaire {
+        margin-left: 5%;
+        margin-top: 10%;
+        font-size:medium;
+    }
+
+    img.magazin {
+        display: none;
+    }
+
+    div.info2 {
+        margin-top: 70%;
         visibility: visible;
     }
 }
@@ -225,11 +297,37 @@ div.info2 {
     }
 }
 
-@media screen and (max-width: 320px) and (min-width: 270px){
+@media screen and (max-width: 320px) and (min-width: 300px){
 
     div.ouverture {
         margin-left: 22%;
-        margin-top: -95%;
+        margin-top: -100%;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    div.horaire {
+        margin-left: 5%;
+        margin-top: 15%;
+        font-size:medium;
+    }
+
+    img.magazin {
+        display: none;
+    }
+
+    div.info2 {
+        margin-top: 95%;
+        visibility: visible;
+        font-size: medium
+    }
+}
+
+@media screen and (max-width: 300px) and (min-width: 270px){
+
+    div.ouverture {
+        margin-left: 22%;
+        margin-top: -100%;
         font-size: medium;
         font-weight: bold;
     }
