@@ -74,10 +74,12 @@
                 break;
                 //Reste de la semaine
                 default : 
-                    //Matin
-                    if ($Heure >= 9 && $Heure < 12)
+                    if ($Heure >= 9 && $Heure < 12) //Matin
                     {
                         $Ouverture = "Le magasin est ouvert.";
+                        
+                    } else if ($Heure = 12) //12h
+                    {
                         if ($Heure = 12 && $Minute > 30)
                         {
                             $Ouverture = "Le magasin est fermé, il réouvrira à 14h30.";
@@ -85,16 +87,14 @@
                         {
                             $Ouverture = "Le magasin est ouvert.";
                         }
-                    //Après-Midi
                     } else if ($Heure >= 12 && $Heure < 14) //Entre deux
                     {
                         $Ouverture = "Le magasin est fermé, il réouvrira à 14h30.";
-                    } else if ($Heure > 14 && $Heure < 19)
+                    } else if ($Heure > 14 && $Heure < 19) //Après-midi
                     {
                         $Ouverture = "Le magasin est ouvert";
-                    } else if ($Heure = 14)
+                    } else if ($Heure = 14) //14h
                     {
-                        //BUG ?
                         if ($Heure = 14 && $Minute < 30)
                         {
                             $Ouverture = "Le magasin est fermé, il réouvrira à 14h30.";

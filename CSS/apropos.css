@@ -31,16 +31,16 @@ div.info2 {
 @media screen and (min-width: 1800px) {
     div.ouverture {
         margin-left: 55%;
-        margin-top: -36%;
+        margin-top: -37%;
         font-size: xx-large;
         font-weight: bold;
     }
 
     img.magazin {
-        width: 700px;
-        height: 700px;
-        margin-top: -30%;
-        margin-left: 5%;
+        width: 750px;
+        height: 750px;
+        margin-top: -32%;
+        margin-left: 13%;
     }
 
     div.info2 {
