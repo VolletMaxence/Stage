@@ -198,8 +198,7 @@ nav {
 
 
 /* Changer le menu pour portable (ajouter boutton pour l'afficher // le réduire) */
-@media screen and (max-width: 1024px) and (min-width: 667px) {
-
+@media screen and (max-width: 1024px) and (min-width: 800px) {
     /* texte "Au Grain de Pollen */
     h1 {
         font-size: 200%;
@@ -220,6 +219,48 @@ nav {
         font-size: large;
         position: absolute;
         text-align: center;
+    }
+    
+    #menu ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: inline-block;
+    }
+    #menu li {
+        float: left;
+        margin: auto;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        color: #FF69B4;
+        width: 175px;
+
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 667px) {
+    /* texte "Au Grain de Pollen */
+    h1 {
+        font-size: 200%;
+        color: #FF00FF;
+        text-align: center;
+        margin-top: 2%;
+        margin-right: 0%;
+        /* background-color: black; */
+    }
+
+    div.info {
+        display: none;
+    }
+
+    #menu {
+        display: inline;
+        width: 100%;
+        font-size: large;
+        position: absolute;
+        text-align: center;
+        margin-left: -3%;
     }
     
     #menu ul {
@@ -359,7 +400,7 @@ nav {
 
 }
 
-@media screen and (max-width: 370px){
+@media screen and (max-width: 370px) and (min-width: 270px) {
     /* Menus et titre supérieurs */
     #Header {
         width: 100%;
@@ -411,5 +452,59 @@ nav {
         width: 80px;
         font-size: small;
     }
+}
 
+
+@media screen and (max-width: 270px) {
+    /* Menus et titre supérieurs */
+    #Header {
+        width: 100%;
+        opacity: 100%;
+        font-size: 75%;
+        list-style: none;
+    }
+
+    #menu {
+        position:relative;
+        z-index:2;
+    }
+
+    
+    /* texte "Au Grain de Pollen */
+    h1 {
+        font-size: 150%;
+        color: #FF00FF;
+        margin-top: -1%;
+        margin-left: 5%;
+        /* background-color: black; */
+    }
+
+    div.info {
+        display: none;
+    }
+
+    #menu {
+        display: inline;
+        width: 75%;
+        font-size: large;
+        text-align: center;
+        margin-left: 5%;
+    }
+    
+    #menu ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: inline-block;
+    }
+    #menu li {
+        float: left;
+        margin: auto;
+        padding: 0;
+        list-style-type: none;
+        text-align: center;
+        color: #FF69B4;
+        width: 80px;
+        font-size: small;
+    }
 }

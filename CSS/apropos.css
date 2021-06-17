@@ -356,7 +356,7 @@ div.info2 {
     }
 }
 
-@media screen and (max-width: 350px) and (min-width: 320px){
+@media screen and (max-width: 350px) and (min-width: 321px){
 
     div.ouverture {
         margin-left: 5%;
@@ -376,18 +376,18 @@ div.info2 {
     }
 }
 
-@media screen and (max-width: 320px) and (min-width: 300px){
+@media screen and (max-width: 321px) and (min-width: 300px){
 
     div.ouverture {
         margin-left: 22%;
-        margin-top: -100%;
+        margin-top: -95%;
         font-size: medium;
         font-weight: bold;
     }
 
     div.horaire {
         margin-left: 5%;
-        margin-top: 15%;
+        margin-top: 14%;
         font-size:medium;
     }
 
@@ -414,6 +414,32 @@ div.info2 {
     div.horaire {
         margin-left: 5%;
         margin-top: 15%;
+        font-size:medium;
+    }
+
+    img.magazin {
+        display: none;
+    }
+
+    div.info2 {
+        margin-top: 95%;
+        visibility: visible;
+        font-size: medium
+    }
+}
+
+@media screen and (max-width: 270px) {
+
+    div.ouverture {
+        margin-left: 20%;
+        margin-top: -140%;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    div.horaire {
+        margin-left: 5%;
+        margin-top: 20%;
         font-size:medium;
     }
 
