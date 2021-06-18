@@ -2,9 +2,9 @@
 <html lang="en">
     <head>
         <!-- Icone -->
-        <link rel="icon" href="../../Image/icone.ico">
+        <link rel="icon" href="../Image/icone.ico">
         <!-- Lien CSS -->
-        <link rel="stylesheet" href="../../CSS/apropos.css">
+        <link rel="stylesheet" href="../CSS/apropos.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Titre -->
@@ -12,7 +12,7 @@
     </head>
     <body>
         <?php 
-            include "../../menu.php"; 
+            include "../menu.php"; 
         ?>
 
         <div class="tout">
@@ -27,7 +27,7 @@
                 <p> Dimanche : 9h - 12h30</p>
             </div>
 
-            <img class="magazin" src="../../Image/test/photo_9.JPG" alt="Devanture du magasin">
+            <img class="magazin" src="../Image/test/photo_9.JPG" alt="Devanture du magasin">
 
         </div>
         <?php
