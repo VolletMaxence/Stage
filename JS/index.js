@@ -36,7 +36,7 @@ function StartAnim()
     //Sinon, on affiche que la 1er image
     else
         {
-        document.write('<a href="Site/Ceremonie/Ceremonie.php"><img src="Image/test/photo_5.JPG" border="0" /></a>')
+        document.write('<a href="Site/Ceremonie"><img src="Image/test/photo_5.JPG" border="0" /></a>')
         }
     }
 function ImgDest()
