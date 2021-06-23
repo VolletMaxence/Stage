@@ -55,7 +55,7 @@
                         $Ouverture = "Le magasin est ouvert.";
                     } else 
                     {
-                        $Ouverture = "Le magasin est fermé";
+                        $Ouverture = "Le magasin est fermé.";
                     }
                 break;
                 //Dimanche
@@ -69,30 +69,28 @@
                     }
                     else 
                     {
-                        $Ouverture = "Le magasin est fermé";
+                        $Ouverture = "Le magasin est fermé.";
                     }
                 break;
                 //Reste de la semaine
                 default : 
-                    if ($Heure >= 9 && $Heure < 12) //Matin
+                    if ($Heure >= 9 && $Heure <= 12) //Matin
                     {
                         $Ouverture = "Le magasin est ouvert.";
-                        
-                    } else if ($Heure = 12) //12h
-                    {
-                        if ($Heure = 12 && $Minute > 30)
-                        {
-                            $Ouverture = "Le magasin est fermé, il réouvrira à 14h30.";
-                        } else if ($Heure = 12 && $Minute <= 30)
-                        {
-                            $Ouverture = "Le magasin est ouvert.";
-                        }
+                    
+                            if ($Heure = 12 && $Minute > 30)
+                            {
+                                $Ouverture = "Le magasin est fermé, il réouvrira à 14h30.";
+                            } else if ($Heure = 12 && $Minute <= 30)
+                            {
+                                $Ouverture = "Le magasin est ouvert.";
+                            }
                     } else if ($Heure >= 12 && $Heure < 14) //Entre deux
                     {
                         $Ouverture = "Le magasin est fermé, il réouvrira à 14h30.";
                     } else if ($Heure > 14 && $Heure < 19) //Après-midi
                     {
-                        $Ouverture = "Le magasin est ouvert";
+                        $Ouverture = "Le magasin est ouvert.";
                     } else if ($Heure = 14) //14h
                     {
                         if ($Heure = 14 && $Minute < 30)
@@ -104,7 +102,7 @@
                         } 
                     } else 
                     {
-                        $Ouverture = "Le magasin est fermé";
+                        $Ouverture = "Le magasin est fermé.";
                     }
             }
             echo "<div class=ouverture>";
