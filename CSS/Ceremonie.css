@@ -16,7 +16,7 @@ img.image_presentation:hover {
     padding: 1px;
     display: block;
     float: none;
-    transform: scale(1.13);
+    transform: scale(1.15);
     transition: all 1s ease;
 }
 
@@ -24,14 +24,14 @@ div.image1 {
     margin-top: -40%;
     text-align: center;
     position: absolute;
-    margin-left: 12%;
+    margin-left: 12.5%;
 }
 
 div.image2 {
     margin-top: -40%;
     text-align: center;
     position: absolute;
-    margin-left: 41%;
+    margin-left: 41.5%;
 }
 
 /* ! Image 3 ne se reposissione pas ! */
@@ -39,7 +39,7 @@ div.image3 {
     margin-top: -40%;
     text-align: center;
     position: absolute;
-    margin-left: 70%;
+    margin-left: 70.5%;
 }
 
 /* Commencer redimmention pour Portable / Tablette à 1024 px 
