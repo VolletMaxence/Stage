@@ -8,8 +8,8 @@
             //Changement direction du CSS
             switch ($Path)
             {
-                //case "C:\wamp64\www\Stage" :
-                case "/home/xencev/www" :
+                case "C:\wamp64\www\Stage" :
+                //case "/home/xencev/www" :
                     ?>
                         <link rel="stylesheet" href="CSS/menu.css">
                     <?php
@@ -31,8 +31,8 @@
             switch ($Path)
             {
                 //Si c'est la page d'acceuil
-                //case "C:\wamp64\www\Stage" :
-                case "/home/xencev/www" :
+                case "C:\wamp64\www\Stage" :
+                //case "/home/xencev/www" :
                     ?>
                     <div class=info>
                     <a href="https://www.google.com/maps/place/103+Route+de+Dieppe,+76950+Les+Grandes-Ventes/@49.7857715,1.2272386,18z/data=!4m5!3m4!1s0x47e0ba3f9b9ae8a9:0x134999d243debbe9!8m2!3d49.7860085!4d1.2272253?hl=fr" >
@@ -73,8 +73,8 @@
 
                 //SWITCH CASE POUR L'ONGLET CEREMONIE
                 //Si c'est la page de Composition
-                //case "C:\wamp64\www\Stage\Ceremonie" :
-                case "/home/xencev/www/Ceremonie" :
+                case "C:\wamp64\www\Stage\Ceremonie" :
+                //case "/home/xencev/www/Ceremonie" :
                     ?>
                     <div class=info>
                     <a href="https://www.google.com/maps/place/103+Route+de+Dieppe,+76950+Les+Grandes-Ventes/@49.7857715,1.2272386,18z/data=!4m5!3m4!1s0x47e0ba3f9b9ae8a9:0x134999d243debbe9!8m2!3d49.7860085!4d1.2272253?hl=fr" >
@@ -103,8 +103,8 @@
                     <?php
                     break;
                 //Si c'est la page de Pour Offrir
-                //case "C:\wamp64\www\Stage\Pour_Offrir" :
-                case "/home/xencev/www/Pour_Offrir" :
+                case "C:\wamp64\www\Stage\Pour_Offrir" :
+                //case "/home/xencev/www/Pour_Offrir" :
                     ?>
                     <div class=info>
                         <a href="https://www.google.com/maps/place/103+Route+de+Dieppe,+76950+Les+Grandes-Ventes/@49.7857715,1.2272386,18z/data=!4m5!3m4!1s0x47e0ba3f9b9ae8a9:0x134999d243debbe9!8m2!3d49.7860085!4d1.2272253?hl=fr" >
@@ -143,8 +143,8 @@
                     <?php
                     break;
                 //Si c'est la page de mariage
-                //case "C:\wamp64\www\Stage\Mariage" :
-                case "/home/xencev/www/Mariage" :
+                case "C:\wamp64\www\Stage\Mariage" :
+                //case "/home/xencev/www/Mariage" :
                     ?>
                     <div class=info>
                         <a href="https://www.google.com/maps/place/103+Route+de+Dieppe,+76950+Les+Grandes-Ventes/@49.7857715,1.2272386,18z/data=!4m5!3m4!1s0x47e0ba3f9b9ae8a9:0x134999d243debbe9!8m2!3d49.7860085!4d1.2272253?hl=fr" >
@@ -183,8 +183,8 @@
                     <?php
                     break;
                 //Si c'est la page de deuil
-                //case "C:\wamp64\www\Stage\Deuil" :
-                case "/home/xencev/www/Deuil" :
+                case "C:\wamp64\www\Stage\Deuil" :
+                //case "/home/xencev/www/Deuil" :
                     ?>
                     <div class=info>
                     <a href="https://www.google.com/maps/place/103+Route+de+Dieppe,+76950+Les+Grandes-Ventes/@49.7857715,1.2272386,18z/data=!4m5!3m4!1s0x47e0ba3f9b9ae8a9:0x134999d243debbe9!8m2!3d49.7860085!4d1.2272253?hl=fr" >
@@ -224,8 +224,8 @@
                     break;
 
                 //Si page Colis :
-                //case "C:\wamp64\www\Stage\Colis" :
-                case "/home/xencev/www/Colis" :
+                case "C:\wamp64\www\Stage\Colis" :
+                //case "/home/xencev/www/Colis" :
                     ?>
                     <div class=info>
                     <a href="https://www.google.com/maps/place/103+Route+de+Dieppe,+76950+Les+Grandes-Ventes/@49.7857715,1.2272386,18z/data=!4m5!3m4!1s0x47e0ba3f9b9ae8a9:0x134999d243debbe9!8m2!3d49.7860085!4d1.2272253?hl=fr" >
@@ -265,8 +265,8 @@
                     break;
 
                 //Si page A propos :
-                //case "C:\wamp64\www\Stage\A_Propos" :
-                case "/home/xencev/www/A_Propos" :
+                case "C:\wamp64\www\Stage\A_Propos" :
+                //case "/home/xencev/www/A_Propos" :
                     ?>
                     <div class=info>
                     <a href="https://www.google.com/maps/place/103+Route+de+Dieppe,+76950+Les+Grandes-Ventes/@49.7857715,1.2272386,18z/data=!4m5!3m4!1s0x47e0ba3f9b9ae8a9:0x134999d243debbe9!8m2!3d49.7860085!4d1.2272253?hl=fr" >

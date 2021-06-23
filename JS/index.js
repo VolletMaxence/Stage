@@ -8,7 +8,7 @@ if (version >= 3)
     {
     i0 = new Image;
     i0.src = 'Image/test/DiapoTest/photo_1.jpg';
-    SiClickGoTo[0] = "Baptheme"; //Là où l'utilisateur va si il clique sur l'image
+    SiClickGoTo[0] = "Pour_Offrir"; //Là où l'utilisateur va si il clique sur l'image
     imgPath[0] = i0.src;
 
     i1 = new Image;

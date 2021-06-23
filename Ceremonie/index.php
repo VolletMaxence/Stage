@@ -20,19 +20,19 @@
             $random3 = rand(1,10);
 
             //echo $random;
-            $image1 = "photo_".$random1;
-            $image2 = "photo_".$random2;
-            $image3 = "photo_".$random3;
+            $image1 = "IMG_".$random1;
+            $image2 = "IMG_".$random2;
+            $image3 = "IMG_".$random3;
 
             //echo $image;
             echo "<div class=image1>";
-                echo "<a href=../Baptheme/><img class='image_presentation' src='../Image/test/".$image1.".JPG' alt='Image random'> </a>";
+                echo "<a href=../Baptheme/><img class='image_presentation' src='../Image/Pour_Offrir/".$image1.".JPG' alt='Image random'> </a>";
             echo "</div>";
             echo "<div class=image2>";
-                echo "<a href=../Mariage/><img class='image_presentation' src='../Image/test/".$image2.".JPG' alt='Image random'> </a>";
+                echo "<a href=../Mariage/><img class='image_presentation' src='../Image/Mariage/".$image2.".JPG' alt='Image random'> </a>";
             echo "</div>";
             echo "<div class=image3>";
-                echo "<a href=../Deuil/><img class='image_presentation' src='../Image/test/".$image3.".JPG' alt='Image random'> </a>";
+                echo "<a href=../Deuil/><img class='image_presentation' src='../Image/Deuil/".$image3.".JPG' alt='Image random'> </a>";
             echo "</div>";
         ?>
     </body>
