@@ -12,57 +12,102 @@
         <?php 
             include "../menu.php"; 
         ?>
-        <!-- Image simple -->
         <div class=image1>
-            <img class="image_presentation" src="../Image/Deuil/photo_1.JPG" alt="Image 1">
+            <img class="image_presentation" src="../Image/Deuil/IMG_1.JPG" alt="Image 1">
         </div> 
-        <!-- Image simple -->
         <div class=image2>
-            <img class="image_presentation" src="../Image/Deuil/photo_2.JPG" alt="Image 2">
+            <img class="image_presentation" src="../Image/Deuil/IMG_2.JPG" alt="Image 2">
         </div> 
-
-        <!-- Image simple -->
         <div class=image3>
-            <img class="image_presentation" src="../Image/Deuil/photo_3.JPG" alt="Image 3">
+            <img class="image_presentation" src="../Image/Deuil/IMG_3.JPG" alt="Image 3">
         </div> 
-        <!-- Image simple -->
+
         <div class=image4>
-            <img class="image_presentation" src="../Image/Deuil/photo_4.JPG" alt="Image 4">
+            <img class="image_presentation" src="../Image/Deuil/IMG_4.JPG" alt="Image 4">
         </div> 
-
-        <!-- Image simple -->
         <div class=image5>
-            <img class="image_presentation" src="../Image/Deuil/photo_5.JPG" alt="Image 5">
+            <img class="image_presentation" src="../Image/Deuil/IMG_5.JPG" alt="Image 5">
         </div> 
-        <!-- Image simple -->
         <div class=image6>
-            <img class="image_presentation" src="../Image/Deuil/photo_6.JPG" alt="Image 6">
+            <img class="image_presentation" src="../Image/Deuil/IMG_6.JPG" alt="Image 6">
         </div>
 
-        <!-- Image simple -->
         <div class=image7>
-            <img class="image_presentation" src="../Image/Deuil/photo_7.JPG" alt="Image 7">
+            <img class="image_presentation" src="../Image/Deuil/IMG_7.JPG" alt="Image 7">
         </div> 
-        <!-- Image simple -->
         <div class=image8>
-            <img class="image_presentation" src="../Image/Deuil/photo_8.JPG" alt="Image 8">
+            <img class="image_presentation" src="../Image/Deuil/IMG_8.JPG" alt="Image 8">
         </div> 
-        <!-- Image simple -->
         <div class=image9>
-            <img class="image_presentation" src="../Image/Deuil/photo_9.JPG" alt="Image 9">
+            <img class="image_presentation" src="../Image/Deuil/IMG_9.JPG" alt="Image 9">
         </div>
 
-        <!-- Image simple -->
         <div class=image10>
-            <img class="image_presentation" src="../Image/Deuil/photo_10.JPG" alt="Image 10">
+            <img class="image_presentation" src="../Image/Deuil/IMG_10.JPG" alt="Image 10">
         </div> 
-        <!-- Image simple -->
         <div class=image11>
-            <img class="image_presentation" src="../Image/Deuil/photo_11.JPG" alt="Image 11">
+            <img class="image_presentation" src="../Image/Deuil/IMG_11.JPG" alt="Image 11">
         </div> 
-        <!-- Image simple -->
         <div class=image12>
-            <img class="image_presentation" src="../Image/Deuil/photo_12.JPG" alt="Image 12">
+            <img class="image_presentation" src="../Image/Deuil/IMG_12.JPG" alt="Image 12">
+        </div>
+
+        <div class=image13>
+            <img class="image_presentation" src="../Image/Deuil/IMG_13.JPG" alt="Image 13">
+        </div> 
+        <div class=image14>
+            <img class="image_presentation" src="../Image/Deuil/IMG_14.JPG" alt="Image 14">
+        </div> 
+
+        <div class=image15>
+            <img class="image_presentation" src="../Image/Deuil/IMG_15.JPG" alt="Image 15">
+        </div> 
+
+        <div class=image16>
+            <img class="image_presentation" src="../Image/Deuil/IMG_16.JPG" alt="Image 16">
+        </div> 
+        <div class=image17>
+            <img class="image_presentation" src="../Image/Deuil/IMG_17.JPG" alt="Image 17">
+        </div> 
+        <div class=image18>
+            <img class="image_presentation" src="../Image/Deuil/IMG_18.JPG" alt="Image 18">
+        </div>
+
+        <div class=image19>
+            <img class="image_presentation" src="../Image/Deuil/IMG_19.JPG" alt="Image 19">
+        </div> 
+        <div class=image20>
+            <img class="image_presentation" src="../Image/Deuil/IMG_20.JPG" alt="Image 20">
+        </div> 
+        <div class=image21>
+            <img class="image_presentation" src="../Image/Deuil/IMG_21.JPG" alt="Image 21">
+        </div>
+
+        <div class=image22>
+            <img class="image_presentation" src="../Image/Deuil/IMG_22.JPG" alt="Image 22">
+        </div> 
+        <div class=image23>
+            <img class="image_presentation" src="../Image/Deuil/IMG_23.JPG" alt="Image 23">
+        </div> 
+        <div class=image24>
+            <img class="image_presentation" src="../Image/Deuil/IMG_24.JPG" alt="Image 24">
+        </div>
+
+        <div class=image25>
+            <img class="image_presentation" src="../Image/Deuil/IMG_25.JPG" alt="Image 25">
+        </div>
+        <div class=image26>
+            <img class="image_presentation" src="../Image/Deuil/IMG_26.JPG" alt="Image 26">
+        </div>
+        <div class=image27>
+            <img class="image_presentation" src="../Image/Deuil/IMG_27.JPG" alt="Image 27">
+        </div>
+
+        <div class=image28>
+            <img class="image_presentation" src="../Image/Deuil/IMG_28.JPG" alt="Image 28">
+        </div>
+        <div class=image29>
+            <img class="image_presentation" src="../Image/Deuil/IMG_29.JPG" alt="Image 29">
         </div>
     </body>
 </html>

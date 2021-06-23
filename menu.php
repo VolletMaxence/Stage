@@ -50,16 +50,16 @@
                             <?php
                             if ( $detect->isMobile() ) {
                                 ?>
-                                <li id="deroulant"> Cérémonie ▼
+                                <li id="deroulant"> Composition ▼
                                 <?php
                             } else {
                                 ?>
-                                <li id="deroulant"> <a href="Ceremonie"> Cérémonie ▼</a>
+                                <li id="deroulant"> <a href="Ceremonie"> Composition ▼</a>
                                 <?php
                             }
                             ?>
                                 <ul>
-                                    <li> <a href="Baptheme/"> Bapthême </a> </li>
+                                    <li> <a href="Pour_Offrir/"> Pour Offrir </a> </li>
                                     <li> <a href="Mariage/"> Mariage </a> </li>
                                     <li> <a href="Deuil/"> Deuil </a> </li>
                                 </ul>
@@ -72,7 +72,7 @@
                     break;
 
                 //SWITCH CASE POUR L'ONGLET CEREMONIE
-                //Si c'est la page de Cérémonie
+                //Si c'est la page de Composition
                 //case "C:\wamp64\www\Stage\Ceremonie" :
                 case "/home/xencev/www/Ceremonie" :
                     ?>
@@ -89,9 +89,9 @@
                         <ul>
                             <!-- Ajouter les liens + changer nom -->
                             <li> <a href=..> Accueil </a> </li>
-                            <li id="deroulant"> <a> <U> <strong> Cérémonie ▼ </strong> </U> </a>
+                            <li id="deroulant"> <a> <U> <strong> Composition ▼ </strong> </U> </a>
                                 <ul>
-                                    <li> <a href="../Baptheme/"> Bapthême </a> </li>
+                                    <li> <a href="../Pour_Offrir/"> Pour Offrir </a> </li>
                                     <li> <a href="../Mariage/"> Mariage </a> </li>
                                     <li> <a href="../Deuil/"> Deuil </a> </li>
                                 </ul>
@@ -102,9 +102,9 @@
                     </nav>
                     <?php
                     break;
-                //Si c'est la page de bapthême
-                //case "C:\wamp64\www\Stage\Baptheme" :
-                case "/home/xencev/www/Baptheme" :
+                //Si c'est la page de Pour Offrir
+                //case "C:\wamp64\www\Stage\Pour_Offrir" :
+                case "/home/xencev/www/Pour_Offrir" :
                     ?>
                     <div class=info>
                         <a href="https://www.google.com/maps/place/103+Route+de+Dieppe,+76950+Les+Grandes-Ventes/@49.7857715,1.2272386,18z/data=!4m5!3m4!1s0x47e0ba3f9b9ae8a9:0x134999d243debbe9!8m2!3d49.7860085!4d1.2272253?hl=fr" >
@@ -122,16 +122,16 @@
                             <?php
                             if ( $detect->isMobile() ) {
                                 ?>
-                                <li id="deroulant"> <U> Cérémonie ▼ </U>
+                                <li id="deroulant"> <U> Composition ▼ </U>
                                 <?php
                             } else {
                                 ?>
-                                <li id="deroulant"> <a href="/Ceremonie"> Cérémonie ▼</a>
+                                <li id="deroulant"> <a href="/Ceremonie"> Composition ▼</a>
                                 <?php
                             }
                             ?>
                                 <ul>
-                                    <li id="actuel"> <a> <U> <strong> Bapthême </strong> </U> </a> </li>
+                                    <li id="actuel"> <a> <U> <strong> Pour Offrir </strong> </U> </a> </li>
                                     <li> <a href="../Mariage/"> Mariage </a> </li>
                                     <li> <a href="../Deuil/"> Deuil </a> </li>
                                 </ul>
@@ -162,16 +162,16 @@
                             <?php
                             if ( $detect->isMobile() ) {
                                 ?>
-                                <li id="deroulant"> <U> Cérémonie ▼ </U>
+                                <li id="deroulant"> <U> Composition ▼ </U>
                                 <?php
                             } else {
                                 ?>
-                                <li id="deroulant"> <a href="/Ceremonie"> Cérémonie ▼</a>
+                                <li id="deroulant"> <a href="/Ceremonie"> Composition ▼</a>
                                 <?php
                             }
                             ?>
                                 <ul>
-                                    <li> <a href="../Baptheme/">Bapthême</a> </li>
+                                    <li> <a href="../Pour_Offrir/">Pour Offrir</a> </li>
                                     <li id="actuel"> <U> <strong> <a> Mariage </a> </U> </strong> </li>
                                     <li> <a href="../Deuil/"> Deuil </a> </li>
                                 </ul>
@@ -202,16 +202,16 @@
                             <?php
                             if ( $detect->isMobile() ) {
                                 ?>
-                                <li id="deroulant"> <U> Cérémonie ▼ </U>
+                                <li id="deroulant"> <U> Composition ▼ </U>
                                 <?php
                             } else {
                                 ?>
-                                <li id="deroulant"> <a href="../Ceremonie"> Cérémonie ▼</a>
+                                <li id="deroulant"> <a href="../Ceremonie"> Composition ▼</a>
                                 <?php
                             }
                             ?>
                                 <ul>
-                                    <li> <a href="../Baptheme/">Bapthême </a> </li>
+                                    <li> <a href="../Pour_Offrir/">Pour Offrir </a> </li>
                                     <li> <a href="../Mariage/"> Mariage </a> </li>
                                     <li id="actuel"> <strong> <U> <a> Deuil </a> </U> </strong> </li>
                                 </ul>
@@ -243,16 +243,16 @@
                             <?php
                             if ( $detect->isMobile() ) {
                                 ?>
-                                <li id="deroulant"> Cérémonie ▼
+                                <li id="deroulant"> Composition ▼
                                 <?php
                             } else {
                                 ?>
-                                <li id="deroulant"> <a href="../Ceremonie"> Cérémonie ▼</a>
+                                <li id="deroulant"> <a href="../Ceremonie"> Composition ▼</a>
                                 <?php
                             }
                             ?>
                                 <ul>
-                                    <li> <a href="../Baptheme/">Bapthême </a> </li>
+                                    <li> <a href="../Pour_Offrir/">Pour Offrir </a> </li>
                                     <li> <a href="../Mariage/"> Mariage </a> </li>
                                     <li> <a href="../Deuil/"> Deuil </a> </li>
                                 </ul>
@@ -285,16 +285,16 @@
                             <?php
                             if ( $detect->isMobile() ) {
                                 ?>
-                                <li id="deroulant"> Cérémonie ▼
+                                <li id="deroulant"> Composition ▼
                                 <?php
                             } else {
                                 ?>
-                                <li id="deroulant"> <a href="../Ceremonie"> Cérémonie ▼</a>
+                                <li id="deroulant"> <a href="../Ceremonie"> Composition ▼</a>
                                 <?php
                             }
                             ?>
                                 <ul>
-                                    <li> <a href="../Baptheme/">Bapthême </a> </li>
+                                    <li> <a href="../Pour_Offrir/">Pour Offrir </a> </li>
                                     <li> <a href="../Mariage/"> Mariage </a> </li>
                                     <li> <a href="../Deuil/"> Deuil </a> </li>
                                 </ul>
