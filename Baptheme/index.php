@@ -14,54 +14,54 @@
         ?>
         <!-- Image simple -->
         <div class=image1>
-            <img class="image_presentation" src="../Image/test/photo_1.JPG" alt="Image 1">
+            <img class="image_presentation" src="../Image/Baptheme/photo_1.JPG" alt="Image 1">
         </div> 
         <!-- Image simple -->
         <div class=image2>
-            <img class="image_presentation" src="../Image/test/photo_2.JPG" alt="Image 2">
+            <img class="image_presentation" src="../Image/Baptheme/photo_2.JPG" alt="Image 2">
         </div> 
         <!-- Image simple -->
         <div class=image3>
-            <img class="image_presentation" src="../Image/test/photo_3.JPG" alt="Image 3">
+            <img class="image_presentation" src="../Image/Baptheme/photo_3.JPG" alt="Image 3">
         </div> 
 
         <!-- Image simple -->
         <div class=image4>
-            <img class="image_presentation" src="../Image/test/photo_4.JPG" alt="Image 4">
+            <img class="image_presentation" src="../Image/Baptheme/photo_4.JPG" alt="Image 4">
         </div> 
         <!-- Image simple -->
         <div class=image5>
-            <img class="image_presentation" src="../Image/test/photo_5.JPG" alt="Image 5">
+            <img class="image_presentation" src="../Image/Baptheme/photo_5.JPG" alt="Image 5">
         </div> 
         <!-- Image simple -->
         <div class=image6>
-            <img class="image_presentation" src="../Image/test/photo_6.JPG" alt="Image 6">
+            <img class="image_presentation" src="../Image/Baptheme/photo_6.JPG" alt="Image 6">
         </div>
 
         <!-- Image simple -->
             <div class=image7>
-            <img class="image_presentation" src="../Image/test/photo_7.JPG" alt="Image 4">
+            <img class="image_presentation" src="../Image/Baptheme/photo_7.JPG" alt="Image 7">
         </div> 
         <!-- Image simple -->
         <div class=image8>
-            <img class="image_presentation" src="../Image/test/photo_8.JPG" alt="Image 5">
+            <img class="image_presentation" src="../Image/Baptheme/photo_8.JPG" alt="Image 8">
         </div> 
         <!-- Image simple -->
         <div class=image9>
-            <img class="image_presentation" src="../Image/test/photo_9.JPG" alt="Image 6">
+            <img class="image_presentation" src="../Image/Baptheme/photo_9.JPG" alt="Image 9">
         </div>
 
         <!-- Image simple -->
         <div class=image10>
-            <img class="image_presentation" src="../Image/test/photo_10.JPG" alt="Image 4">
+            <img class="image_presentation" src="../Image/Baptheme/photo_10.JPG" alt="Image 10">
         </div> 
         <!-- Image simple -->
         <div class=image11>
-            <img class="image_presentation" src="../Image/test/photo_11.JPG" alt="Image 5">
+            <img class="image_presentation" src="../Image/Baptheme/photo_11.JPG" alt="Image 11">
         </div> 
         <!-- Image simple -->
         <div class=image12>
-            <img class="image_presentation" src="../Image/test/photo_12.JPG" alt="Image 6">
+            <img class="image_presentation" src="../Image/Baptheme/photo_12.JPG" alt="Image 12">
         </div>
     </body>
 </html>
