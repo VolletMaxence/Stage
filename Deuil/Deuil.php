@@ -38,5 +38,31 @@
         <div class=image6>
             <img class="image_presentation" src="../Image/test/test3.png" alt="Image 6">
         </div>
+
+        <!-- Image simple -->
+        <div class=image7>
+            <img class="image_presentation" src="../Image/test/photo_7.JPG" alt="Image 4">
+        </div> 
+        <!-- Image simple -->
+        <div class=image8>
+            <img class="image_presentation" src="../Image/test/photo_8.JPG" alt="Image 5">
+        </div> 
+        <!-- Image simple -->
+        <div class=image9>
+            <img class="image_presentation" src="../Image/test/photo_9.JPG" alt="Image 6">
+        </div>
+
+        <!-- Image simple -->
+        <div class=image10>
+            <img class="image_presentation" src="../Image/test/photo_10.JPG" alt="Image 4">
+        </div> 
+        <!-- Image simple -->
+        <div class=image11>
+            <img class="image_presentation" src="../Image/test/photo_11.JPG" alt="Image 5">
+        </div> 
+        <!-- Image simple -->
+        <div class=image12>
+            <img class="image_presentation" src="../Image/test/photo_12.JPG" alt="Image 6">
+        </div>
     </body>
 </html>

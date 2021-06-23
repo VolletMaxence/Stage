@@ -53,6 +53,20 @@ Mettre une image par une image les unes sous les autres ? */
         position: absolute;
         margin-left: 6%;
     }
+
+    img.image_presentation {
+        width: 500px;
+        height: 500px;
+        padding: 1px;
+        transition: all 0.75s ease;
+    }
+
+    img.image_presentation:hover {
+        padding: 1px;
+        display: block;
+        float: none;
+        transform: scale(1.5);
+    }
 }
 
 @media screen and (min-width: 1020px) and (max-width: 1400px) {

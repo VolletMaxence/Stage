@@ -88,7 +88,7 @@
                     <nav id="menu">
                         <ul>
                             <!-- Ajouter les liens + changer nom -->
-                            <li> <a href=../index.php> Accueil </a> </li>
+                            <li> <a href=..> Accueil </a> </li>
                             <li id="deroulant"> <a> <U> <strong> Cérémonie ▼ </strong> </U> </a>
                                 <ul>
                                     <li> <a href="../Baptheme/Baptheme.php"> Bapthême </a> </li>
@@ -118,7 +118,7 @@
                     <nav id="menu">
                         <ul>
                             <!-- Ajouter les liens + changer nom -->
-                            <li> <a href=../index.php> Accueil </a> </li>
+                            <li> <a href=..> Accueil </a> </li>
                             <?php
                             if ( $detect->isMobile() ) {
                                 ?>
@@ -158,7 +158,7 @@
                     <nav id="menu">
                         <ul>
                             <!-- Ajouter les liens + changer nom -->
-                            <li> <a href=../index.php> Accueil </a> </li>
+                            <li> <a href=..> Accueil </a> </li>
                             <?php
                             if ( $detect->isMobile() ) {
                                 ?>
@@ -198,7 +198,7 @@
                     <nav id="menu">
                         <ul>
                             <!-- Ajouter les liens + changer nom -->
-                            <li> <a href=../index.php> Accueil </a> </li>
+                            <li> <a href=..> Accueil </a> </li>
                             <?php
                             if ( $detect->isMobile() ) {
                                 ?>
@@ -239,7 +239,7 @@
                     <nav id="menu" role="navigation">
                         <ul>
                             <!-- Ajouter les liens + changer nom -->
-                            <li> <a href=../index.php> Accueil </a> </li>
+                            <li> <a href=..> Accueil </a> </li>
                             <?php
                             if ( $detect->isMobile() ) {
                                 ?>
@@ -281,7 +281,7 @@
                     <nav id="menu">
                         <ul>
                             <!-- Ajouter les liens + changer nom -->
-                            <li> <a href=../index.php> Accueil </a> </li>
+                            <li> <a href=..> Accueil </a> </li>
                             <?php
                             if ( $detect->isMobile() ) {
                                 ?>
