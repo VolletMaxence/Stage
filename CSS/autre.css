@@ -121,28 +121,28 @@ div.image12 {
         margin-top: -23%;
         text-align: center;
         position: absolute;
-        margin-left: 16%;
+        margin-left: 37%;
     }
 
     div.image3 {
         margin-top: -45%;
         text-align: center;
         position: absolute;
-        margin-left: 37%;
+        margin-left: 58%;
     }
 
     div.image4 {
         margin-top: -23%;
         text-align: center;
         position: absolute;
-        margin-left: 37%;
+        margin-left: 16%;
     }
 
     div.image5 {
         margin-top: -45%;
         text-align: center;
         position: absolute;
-        margin-left: 58%;
+        margin-left: 37%;
     }
 
     div.image6 {
@@ -150,6 +150,49 @@ div.image12 {
     text-align: center;
     position: absolute;
     margin-left: 58%;
+    }
+
+    div.image7 {
+        margin-top: -1%;
+        text-align: center;
+        position: absolute;
+        margin-left: 16%;
+    }
+    
+    /* Oni */
+    div.image8 {
+        margin-top: -1%;
+        text-align: center;
+        position: absolute;
+        margin-left: 37%;
+    }
+    
+    div.image9 {
+        margin-top: -1%;
+        text-align: center;
+        position: absolute;
+        margin-left: 58%;
+    }
+    div.image10 {
+        margin-top: 21%;
+        text-align: center;
+        position: absolute;
+        margin-left: 16%;
+    }
+    
+    /* Oni */
+    div.image11 {
+        margin-top: 21%;
+        text-align: center;
+        position: absolute;
+        margin-left: 37%;
+    }
+    
+    div.image12 {
+        margin-top: 21%;
+        text-align: center;
+        position: absolute;
+        margin-left: 58%;
     }
 
     img.image_presentation {
