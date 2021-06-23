@@ -65,7 +65,7 @@
                                 </ul>
                             </li>
                             <li> <a href=Colis/> Colis </a></li>
-                            <li> <a href="apropos"> À propos </a> </li>
+                            <li> <a href="A_Propos/"> À propos </a> </li>
                         </ul>
                     </nav>
                     <?php
@@ -97,7 +97,7 @@
                                 </ul>
                             </li>
                             <li> <a href="../Colis/"> Colis </a></li>
-                            <li> <a href="../apropos"> À propos </a> </li>
+                            <li> <a href="../A_Propos/"> À propos </a> </li>
                         </ul>
                     </nav>
                     <?php
@@ -137,7 +137,7 @@
                                 </ul>
                             </li>
                             <li> <a href=../Colis/> Colis </a></li>
-                            <li> <a href="../apropos"> À propos </a> </li>
+                            <li> <a href="../A_Propos/"> À propos </a> </li>
                         </ul>
                     </nav>
                     <?php
@@ -177,7 +177,7 @@
                                 </ul>
                             </li>
                             <li> <a href=../Colis/> Colis </a></li>
-                            <li> <a href="../apropos"> À propos </a> </li>
+                            <li> <a href="../A_Propos/"> À propos </a> </li>
                         </ul>        
                     </nav>
                     <?php
@@ -217,7 +217,7 @@
                                 </ul>
                             </li>
                             <li> <a href=../Colis/> Colis </a></li>
-                            <li> <a href="../apropos"> À propos </a> </li>
+                            <li> <a href="../A_Propos/"> À propos </a> </li>
                         </ul>        
                     </nav>
                     <?php
@@ -258,15 +258,15 @@
                                 </ul>
                             </li>
                             <li id="actuel"> <strong> <U> <a> Colis </a> </U> </strong> </li>
-                            <li> <a href="../apropos"> À propos </a> </li>
+                            <li> <a href="../A_Propos/"> À propos </a> </li>
                         </ul>        
                     </nav>
                     <?php
                     break;
 
                 //Si page A propos :
-                //case "C:\wamp64\www\Stage\Apropos" :
-                case "/home/xencev/www/Apropos" :
+                //case "C:\wamp64\www\Stage\A_Propos" :
+                case "/home/xencev/www/A_Propos" :
                     ?>
                     <div class=info>
                     <a href="https://www.google.com/maps/place/103+Route+de+Dieppe,+76950+Les+Grandes-Ventes/@49.7857715,1.2272386,18z/data=!4m5!3m4!1s0x47e0ba3f9b9ae8a9:0x134999d243debbe9!8m2!3d49.7860085!4d1.2272253?hl=fr" >
