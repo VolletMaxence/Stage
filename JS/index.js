@@ -8,17 +8,17 @@ if (version >= 3)
     {
     i0 = new Image;
     i0.src = 'Image/test/DiapoTest/photo_1.jpg';
-    SiClickGoTo[0] = "Site/Baptheme/Baptheme.php"; //Là où l'utilisateur va si il clique sur l'image
+    SiClickGoTo[0] = "Baptheme"; //Là où l'utilisateur va si il clique sur l'image
     imgPath[0] = i0.src;
 
     i1 = new Image;
     i1.src = 'Image/test/DiapoTest/photo_2.JPG';
-    SiClickGoTo[1] = "Site/Mariage/Mariage.php"; //Là où l'utilisateur va si il clique sur l'image
+    SiClickGoTo[1] = "Mariage"; //Là où l'utilisateur va si il clique sur l'image
     imgPath[1] = i1.src;
 
     i2 = new Image;
     i2.src = 'Image/test/DiapoTest/photo_3.jpg';
-    SiClickGoTo[2] = "Site/Deuil/Deuil.php"; //Là où l'utilisateur va si il clique sur l'image
+    SiClickGoTo[2] = "Deuil"; //Là où l'utilisateur va si il clique sur l'image
     imgPath[2] = i2.src;
 
     //Possibiliter d'ajout d'image
@@ -36,7 +36,7 @@ function StartAnim()
     //Sinon, on affiche que la 1er image
     else
         {
-        document.write('<a href="Lien0"><img src="Image/test/photo_5.JPG" border="0" /></a>')
+        document.write('<a href="Site/Ceremonie/Ceremonie.php"><img src="Image/test/photo_5.JPG" border="0" /></a>')
         }
     }
 function ImgDest()

@@ -26,13 +26,13 @@
 
             //echo $image;
             echo "<div class=image1>";
-                echo "<a href=../Baptheme/Baptheme.php><img class='image_presentation' src='../Image/test/".$image1.".JPG' alt='Image random'> </a>";
+                echo "<a href=../Baptheme/><img class='image_presentation' src='../Image/test/".$image1.".JPG' alt='Image random'> </a>";
             echo "</div>";
             echo "<div class=image2>";
-                echo "<a href=../Mariage/Mariage.php><img class='image_presentation' src='../Image/test/".$image2.".JPG' alt='Image random'> </a>";
+                echo "<a href=../Mariage/><img class='image_presentation' src='../Image/test/".$image2.".JPG' alt='Image random'> </a>";
             echo "</div>";
             echo "<div class=image3>";
-                echo "<a href=../Deuil/Deuil.php><img class='image_presentation' src='../Image/test/".$image3.".JPG' alt='Image random'> </a>";
+                echo "<a href=../Deuil/><img class='image_presentation' src='../Image/test/".$image3.".JPG' alt='Image random'> </a>";
             echo "</div>";
         ?>
     </body>
