@@ -63,7 +63,7 @@
         </div> 
 
         <div class=image16>
-            <img class="image_presentation" src="../Image/Mariage/IMG_16.JPG" alt="Image 16">
+            <img class="image_presentation" src="../Image/Mariage/IMG_16.PNG" alt="Image 16">
         </div> 
         <div class=image17>
             <img class="image_presentation" src="../Image/Mariage/IMG_17.JPG" alt="Image 17">
@@ -157,16 +157,10 @@
         </div> 
         <div class=image44>
             <img class="image_presentation" src="../Image/Mariage/IMG_44.JPG" alt="Image 44">
-        </div> 
+        </div>
 
         <div class=image45>
             <img class="image_presentation" src="../Image/Mariage/IMG_45.JPG" alt="Image 45">
-        </div> 
-        <div class=image46>
-            <img class="image_presentation" src="../Image/Mariage/IMG_46.JPG" alt="Image 46">
-        </div> 
-        <div class=image47>
-            <img class="image_presentation" src="../Image/Mariage/IMG_47.JPG" alt="Image 47">
         </div>
 
     </body>
