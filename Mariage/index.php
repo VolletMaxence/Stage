@@ -63,7 +63,7 @@
         </div> 
 
         <div class=image16>
-            <img class="image_presentation" src="../Image/Mariage/IMG_16.PNG" alt="Image 16">
+            <img class="image_presentation" src="../Image/Mariage/IMG_16.jpg" alt="Image 16">
         </div> 
         <div class=image17>
             <img class="image_presentation" src="../Image/Mariage/IMG_17.JPG" alt="Image 17">
