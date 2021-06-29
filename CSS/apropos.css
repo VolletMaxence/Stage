@@ -34,7 +34,7 @@ div.Facebook {
     font-size: larger;
 }
 
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1400px) {
     div.ouverture {
         margin-left: 55%;
         margin-top: -37%;
@@ -54,9 +54,9 @@ div.Facebook {
     }
 
     div.Facebook {
-        margin-top: 35%;
-        margin-left: 58%;
-        font-size: larger;
+        margin-top: 31%;
+        margin-left: 57%;
+        font-size: xx-large;
     }
 }
 

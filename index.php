@@ -10,7 +10,7 @@
         <!-- Script pour le deffilement d'image -->
         <script src="JS/index.js"> </script>
         <!-- Titre -->
-        <title>Au Grain de Pollen</title>
+        <title>Au Grain de Pollen - Fleuriste Les Grandes-Ventes</title>
     </head>
     <body>
         <?php 
@@ -34,7 +34,7 @@
 
         <!-- Image simple -->
         <div class=image3>
-            <img class="image_presentation" src="Image/Mariage/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_28.JPG" alt="Image Composition Deuil">
+            <img class="image_presentation" src="Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_28.JPG" alt="Image Composition Deuil">
         </div> 
         <!-- Image simple -->
         <div class=image4>
