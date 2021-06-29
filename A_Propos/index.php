@@ -9,6 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Titre -->
         <title>Au Grain de Pollen - À propos</title>
+        <meta name="description" content='Information sur le magazin "Au Grain de Pollen".'>
     </head>
     <body>
         <?php 

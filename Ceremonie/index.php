@@ -7,6 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Au Grain de Pollen - Cérémonie</title>
+        <meta name="description" content="Composition floral réaliser par le magazin Au Grain de Pollen.">
     </head>
     <body>
         <?php 
