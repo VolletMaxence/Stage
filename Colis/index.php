@@ -8,11 +8,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Au Grain de Pollen - Colis</title>
+        <title>Au Grain de Pollen - Colis - Fleuriste Les Grandes-Ventes</title>
         <meta name="description" content="Information sur les colis.">
-        <IfModule mod_headers.c>
-            Header always set X-FRAME-OPTIONS "DENY"
-        </IfModule>
+        <IfModule mod_headers.c> <!-- Header always set X-FRAME-OPTIONS "DENY" --> </IfModule>
     </head>
     <body>
         <?php 
