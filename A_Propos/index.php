@@ -3,6 +3,8 @@
     <head>
         <!-- Icone -->
         <link rel="icon" href="../Image/icone.ico">
+        <link rel="apple-touch-icon" sizes="120x120" href="../Image/apple-touch-icon-120x120-precomposed.png" /> 
+        <link rel="apple-touch-icon" sizes="152x152" href="../Image/apple-touch-icon-152x152-precomposed.png" />
         <!-- Lien CSS -->
         <link rel="stylesheet" href="../CSS/apropos.css">
         <meta charset="UTF-8">
