@@ -13,101 +13,101 @@
             include "../menu.php"; 
         ?>
         <div class=image1>
-            <img class="image_presentation" src="../Image/Deuil/IMG_1.JPG" alt="Image 1">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_1.JPG" alt="Composition Floral Deuil 1">
         </div> 
         <div class=image2>
-            <img class="image_presentation" src="../Image/Deuil/IMG_2.JPG" alt="Image 2">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_2.JPG" alt="Composition Floral Deuil 2">
         </div> 
         <div class=image3>
-            <img class="image_presentation" src="../Image/Deuil/IMG_3.JPG" alt="Image 3">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_3.JPG" alt="Composition Floral Deuil 3">
         </div> 
 
         <div class=image4>
-            <img class="image_presentation" src="../Image/Deuil/IMG_4.JPG" alt="Image 4">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_4.JPG" alt="Composition Floral Deuil 4">
         </div> 
         <div class=image5>
-            <img class="image_presentation" src="../Image/Deuil/IMG_5.JPG" alt="Image 5">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_5.JPG" alt="Composition Floral Deuil 5">
         </div> 
         <div class=image6>
-            <img class="image_presentation" src="../Image/Deuil/IMG_6.JPG" alt="Image 6">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_6.JPG" alt="Composition Floral Deuil 6">
         </div>
 
         <div class=image7>
-            <img class="image_presentation" src="../Image/Deuil/IMG_7.JPG" alt="Image 7">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_7.JPG" alt="Composition Floral Deuil 7">
         </div> 
         <div class=image8>
-            <img class="image_presentation" src="../Image/Deuil/IMG_8.JPG" alt="Image 8">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_8.JPG" alt="Composition Floral Deuil 8">
         </div> 
         <div class=image9>
-            <img class="image_presentation" src="../Image/Deuil/IMG_9.JPG" alt="Image 9">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_9.JPG" alt="Composition Floral Deuil 9">
         </div>
 
         <div class=image10>
-            <img class="image_presentation" src="../Image/Deuil/IMG_10.JPG" alt="Image 10">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_10.JPG" alt="Composition Floral Deuil 10">
         </div> 
         <div class=image11>
-            <img class="image_presentation" src="../Image/Deuil/IMG_11.JPG" alt="Image 11">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_11.JPG" alt="Composition Floral Deuil 11">
         </div> 
         <div class=image12>
-            <img class="image_presentation" src="../Image/Deuil/IMG_12.JPG" alt="Image 12">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_12.JPG" alt="Composition Floral Deuil 12">
         </div>
 
         <div class=image13>
-            <img class="image_presentation" src="../Image/Deuil/IMG_13.JPG" alt="Image 13">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_13.JPG" alt="Composition Floral Deuil 13">
         </div> 
         <div class=image14>
-            <img class="image_presentation" src="../Image/Deuil/IMG_14.JPG" alt="Image 14">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_14.JPG" alt="Composition Floral Deuil 14">
         </div> 
 
         <div class=image15>
-            <img class="image_presentation" src="../Image/Deuil/IMG_15.JPG" alt="Image 15">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_15.JPG" alt="Composition Floral Deuil 15">
         </div> 
 
         <div class=image16>
-            <img class="image_presentation" src="../Image/Deuil/IMG_16.JPG" alt="Image 16">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_16.JPG" alt="Composition Floral Deuil 16">
         </div> 
         <div class=image17>
-            <img class="image_presentation" src="../Image/Deuil/IMG_17.JPG" alt="Image 17">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_17.JPG" alt="Composition Floral Deuil 17">
         </div> 
         <div class=image18>
-            <img class="image_presentation" src="../Image/Deuil/IMG_18.JPG" alt="Image 18">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_18.JPG" alt="Composition Floral Deuil 18">
         </div>
 
         <div class=image19>
-            <img class="image_presentation" src="../Image/Deuil/IMG_19.JPG" alt="Image 19">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_19.JPG" alt="Composition Floral Deuil 19">
         </div> 
         <div class=image20>
-            <img class="image_presentation" src="../Image/Deuil/IMG_20.JPG" alt="Image 20">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_20.JPG" alt="Composition Floral Deuil 20">
         </div> 
         <div class=image21>
-            <img class="image_presentation" src="../Image/Deuil/IMG_21.JPG" alt="Image 21">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_21.JPG" alt="Composition Floral Deuil 21">
         </div>
 
         <div class=image22>
-            <img class="image_presentation" src="../Image/Deuil/IMG_22.JPG" alt="Image 22">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_22.JPG" alt="Composition Floral Deuil 22">
         </div> 
         <div class=image23>
-            <img class="image_presentation" src="../Image/Deuil/IMG_23.JPG" alt="Image 23">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_23.JPG" alt="Composition Floral Deuil 23">
         </div> 
         <div class=image24>
-            <img class="image_presentation" src="../Image/Deuil/IMG_24.JPG" alt="Image 24">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_24.JPG" alt="Composition Floral Deuil 24">
         </div>
 
         <div class=image25>
-            <img class="image_presentation" src="../Image/Deuil/IMG_25.JPG" alt="Image 25">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_25.JPG" alt="Composition Floral Deuil 25">
         </div>
         <div class=image26>
-            <img class="image_presentation" src="../Image/Deuil/IMG_26.JPG" alt="Image 26">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_26.JPG" alt="Composition Floral Deuil 26">
         </div>
         <div class=image27>
-            <img class="image_presentation" src="../Image/Deuil/IMG_27.JPG" alt="Image 27">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_27.JPG" alt="Composition Floral Deuil 27">
         </div>
 
         <div class=image28>
-            <img class="image_presentation" src="../Image/Deuil/IMG_28.JPG" alt="Image 28">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_28.JPG" alt="Composition Floral Deuil 28">
         </div>
         <div class=image29>
-            <img class="image_presentation" src="../Image/Deuil/IMG_29.JPG" alt="Image 29">
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_29.JPG" alt="Composition Floral Deuil 29">
         </div>
     </body>
 </html>

@@ -27,7 +27,7 @@
                 <p> Dimanche : 9h - 12h30</p>
             </div>
 
-            <img class="magazin" src="../Image/test/photo_9.JPG" alt="Devanture du magasin">
+            <img class="magazin" src="../Image/test/Devanture_Au_Grain_de_Pollen_Fleuriste_Les_Grandes_Ventes.JPG" alt="Devanture du magasin 'Au Grain de Pollen', fleuriste au Grandes-Ventes">
 
         </div>
         <?php
@@ -78,13 +78,17 @@
                     {
                         $Ouverture = "Le magasin est ouvert.";
                     
-                            if ($Heure = 12 && $Minute > 30)
+                        if ($Heure = 12)
+                        {
+                            if ($Minute > 30)
                             {
+                                //BUG
                                 $Ouverture = "Le magasin est fermé, il réouvrira à 14h30.";
                             } else if ($Heure = 12 && $Minute <= 30)
                             {
                                 $Ouverture = "Le magasin est ouvert.";
                             }
+                        }
                     } else if ($Heure >= 12 && $Heure < 14) //Entre deux
                     {
                         $Ouverture = "Le magasin est fermé, il réouvrira à 14h30.";
@@ -109,9 +113,13 @@
                 echo $Ouverture;
             echo "</div>";
         ?>
+        <div class="Facebook">
+            <a href="https://fr-fr.facebook.com/graindepollen85/?ref=nf"> Retrouvez le magasin sur Facebook </strong>en cliquant ici</strong>. </a>
+        </div>
         <div class=info2> 
             <p>Contactez-nous au <strong>02 35 83 42 16</strong>. </p>
             <p> Retrouvez le magazin au <strong>103 Route de Dieppe, 76950 Les Grandes-Ventes</strong>. </p>
+            <p> <a href="https://fr-fr.facebook.com/graindepollen85/?ref=nf"> Retrouvez le magasin sur Facebook <strong>en cliquant ici</strong>. </a> </p>
         </div>
     </body>
 </html>
