@@ -6,6 +6,12 @@ SiClickGoTo = new Array;
 version = navigator.appVersion.substring(0,1);
 if (version >= 3)
     {
+        /* Random JavaScript
+        var IMGPO = Math.floor(Math.random() * 4) + 1;
+        var IMGM = Math.floor(Math.random() * 45) + 1;
+        var IMGD = Math.floor(Math.random() * 29) + 1;
+        */
+
     i0 = new Image;
     i0.src = 'Image/test/DiapoTest/photo_1.jpg';
     SiClickGoTo[0] = "Pour_Offrir"; //Là où l'utilisateur va si il clique sur l'image

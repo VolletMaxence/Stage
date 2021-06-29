@@ -22,7 +22,7 @@ div.diapo {
 
 div.image1 {
     /* Changer la position selon haut de page */
-    margin-top: -25%;
+    margin-top: -46%;
     text-align: center;
     position: absolute;
     margin-left: 12%;
@@ -30,7 +30,7 @@ div.image1 {
 
 div.image2 {
     /* Changer la position selon haut de page */
-    margin-top: -25%;
+    margin-top: -46%;
     text-align: center;
     position: absolute;
     margin-left: 68%;
@@ -38,7 +38,7 @@ div.image2 {
 
 div.image3 {
     /* Changer la position selon haut de page */
-    margin-top: -46%;
+    margin-top: -25%;
     text-align: center;
     position: absolute;
     margin-left: 12%;
@@ -46,7 +46,7 @@ div.image3 {
 
 div.image4 {
     /* Changer la position selon haut de page */
-    margin-top: -46%;
+    margin-top: -25%;
     text-align: center;
     position: absolute;
     margin-left: 68%;
