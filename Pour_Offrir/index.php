@@ -32,7 +32,6 @@
         <div class=image5>
             <img class="image_presentation" src="../Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_5.JPG" alt="Composition Floral "Pour offrir"  5">
         </div> 
-        <!--
         <div class=image6>
             <img class="image_presentation" src="../Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_6.JPG" alt="Composition Floral "Pour offrir"  6">
         </div>
@@ -50,6 +49,7 @@
         <div class=image10>
             <img class="image_presentation" src="../Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_10.JPG" alt="Composition Floral "Pour offrir"  10">
         </div> 
+        <!--
         <div class=image11>
             <img class="image_presentation" src="../Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_11.JPG" alt="Composition Floral "Pour offrir"  11">
         </div> 

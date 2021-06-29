@@ -16,7 +16,16 @@
         <?php 
             include "../menu.php"; 
         ?>
+        <div class="InfoColis">
+            <p> 
+                
+            </p>
+        </div>
+        <div class="Important">
+            <p> 
 
+            </p>
+        </div>
 
     </body>
 </html>
