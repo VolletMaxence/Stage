@@ -7,7 +7,7 @@ body {
 img.magazin {
     width: 560px;
     height: 560px;
-    margin-top: -125%;
+    margin-top: -155%;
     margin-left: 15%;
 }
 
@@ -34,7 +34,7 @@ div.Facebook {
     font-size: larger;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1800px) {
     div.ouverture {
         margin-left: 55%;
         margin-top: -37%;
