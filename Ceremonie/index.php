@@ -15,14 +15,14 @@
             //Selection random d'image pour rediriger vers les autres page
 
             //Random
-            $random1 = rand(1,10);
-            $random2 = rand(1,10);
-            $random3 = rand(1,10);
+            $random1 = rand(1,4);
+            $random2 = rand(1,45);
+            $random3 = rand(1,29);
 
             //echo $random;
-            $image1 = "IMG_".$random1;
-            $image2 = "IMG_".$random2;
-            $image3 = "IMG_".$random3;
+            $image1 = "Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_".$random1;
+            $image2 = "Composition_Floral_Mariage_Au_Grain_de_Pollen_".$random2;
+            $image3 = "Composition_Floral_Deuil_Au_Grain_de_Pollen_".$random3;
 
             //echo $image;
             echo "<div class=image1>";
