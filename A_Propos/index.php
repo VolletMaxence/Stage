@@ -114,12 +114,12 @@
             echo "</div>";
         ?>
         <div class="Facebook">
-            <a href="https://fr-fr.facebook.com/graindepollen85/?ref=nf"> <img class="image_presentation" src="../Image/Menu/Logo_Facebook.png" alt="Logo Facebook"> Retrouvez le magasin sur Facebook <strong>en cliquant ici</strong>.</a>
+            <a href="https://www.facebook.com/augraindepollen.fleuristelesgrandesventes/"> <img class="image_presentation" src="../Image/Menu/Logo_Facebook.png" alt="Logo Facebook"> Retrouvez le magasin sur Facebook <strong>en cliquant ici</strong>.</a>
         </div>
         <div class=info2> 
             <p> <img class="image_presentation" src="../Image/Menu/Telephone.png" alt="Logo Facebook"> Contactez-nous au <strong>02 35 83 42 16</strong>. </p>
             <p> <img class="image_presentation" src="../Image/Menu/Adresse.png" alt="Logo Facebook"> Retrouvez le magazin au <strong>103 Route de Dieppe, 76950 Les Grandes-Ventes</strong>. </p>
-            <p> <a href="https://fr-fr.facebook.com/graindepollen85/?ref=nf"> <img class="image_presentation" src="../Image/Menu/Logo_Facebook.png" alt="Logo Facebook"> Retrouvez le magasin sur Facebook <strong>en cliquant ici</strong>. </a> </p>
+            <p> <a href="https://www.facebook.com/augraindepollen.fleuristelesgrandesventes/"> <img class="image_presentation" src="../Image/Menu/Logo_Facebook.png" alt="Logo Facebook"> Retrouvez le magasin sur Facebook <strong>en cliquant ici</strong>. </a> </p>
         </div>
     </body>
 </html>
