@@ -40,7 +40,7 @@
             $Annee = date ('y');
             $Heure = date ('G');
             $Minute = date ('i');
-            //echo "Jour : ".$Jour.", Mois : ".$Mois.", Année : ".$Annee.", Heure : ".$Heure.", Minutes : ".$Minute;
+            echo "Jour : ".$Jour.", Mois : ".$Mois.", Année : ".$Annee.", Heure : ".$Heure.", Minutes : ".$Minute;
 
             switch ($Jour)
             {
@@ -74,30 +74,30 @@
                 break;
                 //Reste de la semaine
                 default : 
-                    if ($Heure >= 9 && $Heure <= 12) //Matin
+                    if ($Heure >= 9 && $Heure < 12) //Matin
                     {
                         $Ouverture = "Le magasin est ouvert.";
-                    } else if ($Heure = 12)
+                    }if ($Heure = 12)
                     {
-                        if ($Minute > 30)
+                        if ($Heure = 12 && $Minute > 30)
                         {
                             $Ouverture = "Le magasin est fermé, il réouvrira à 14h30.";
-                        } else if ($Minute <= 30)
+                        } else
                         {
                             $Ouverture = "Le magasin est ouvert.";
                         }
-                    } else if ($Heure >= 12 && $Heure < 14) //Entre deux
+                    }if ($Heure >= 13 && $Heure < 14) //Entre deux
                     {
                         $Ouverture = "Le magasin est fermé, il réouvrira à 14h30.";
-                    } else if ($Heure > 14 && $Heure < 19) //Après-midi
+                    } if ($Heure > 14 && $Heure < 19) //Après-midi
                     {
                         $Ouverture = "Le magasin est ouvert.";
-                    } else if ($Heure = 14) //14h
+                    }  if ($Heure = 14) //14h
                     {
-                        if ($Heure = 14 && $Minute < 30)
+                        if ($Minute < 30)
                         {
                             $Ouverture = "Le magasin est fermé, il réouvrira à 14h30.";
-                        } else if ($Heure = 14 && $Minute >= 30)
+                        } else
                         {
                             $Ouverture = "Le magasin est ouvert.";
                         } 
@@ -105,6 +105,7 @@
                     {
                         $Ouverture = "Le magasin est fermé.";
                     }
+
             }
             echo "<div class=ouverture>";
                 echo $Ouverture;
@@ -114,8 +115,8 @@
             <a href="https://fr-fr.facebook.com/graindepollen85/?ref=nf"> <img class="image_presentation" src="../Image/Menu/Logo_Facebook.png" alt="Logo Facebook"> Retrouvez le magasin sur Facebook </strong>en cliquant ici</strong>.</a>
         </div>
         <div class=info2> 
-            <p>Contactez-nous au <strong>02 35 83 42 16</strong>. </p>
-            <p> Retrouvez le magazin au <strong>103 Route de Dieppe, 76950 Les Grandes-Ventes</strong>. </p>
+            <p> <img class="image_presentation" src="../Image/Menu/Telephone.png" alt="Logo Facebook"> Contactez-nous au <strong>02 35 83 42 16</strong>. </p>
+            <p> <img class="image_presentation" src="../Image/Menu/Adresse.png" alt="Logo Facebook"> Retrouvez le magazin au <strong>103 Route de Dieppe, 76950 Les Grandes-Ventes</strong>. </p>
             <p> <a href="https://fr-fr.facebook.com/graindepollen85/?ref=nf"> <img class="image_presentation" src="../Image/Menu/Logo_Facebook.png" alt="Logo Facebook"> Retrouvez le magasin sur Facebook <strong>en cliquant ici</strong>. </a> </p>
         </div>
     </body>

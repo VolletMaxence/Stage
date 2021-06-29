@@ -28,6 +28,10 @@ div.info {
 }
 
 /* Taille image des infos */
+img#Facebook {
+    width: 32px;
+    height: 32px;
+}
 img#Telephone {
     width: 32px;
     height: 32px;

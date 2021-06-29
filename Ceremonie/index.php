@@ -26,7 +26,7 @@
 
             //echo $image;
             echo "<div class=image1>";
-                echo "<a href=../Baptheme/><img class='image_presentation' src='../Image/Pour_Offrir/".$image1.".JPG' alt='Image random'> </a>";
+                echo "<a href=../Pour_Offrir/><img class='image_presentation' src='../Image/Pour_Offrir/".$image1.".JPG' alt='Image random'> </a>";
             echo "</div>";
             echo "<div class=image2>";
                 echo "<a href=../Mariage/><img class='image_presentation' src='../Image/Mariage/".$image2.".JPG' alt='Image random'> </a>";
