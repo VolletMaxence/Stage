@@ -18,7 +18,7 @@
             //Selection random d'image pour rediriger vers les autres page
 
             //Random
-            $random1 = rand(1,4);
+            $random1 = rand(1,10);
             $random2 = rand(1,45);
             $random3 = rand(1,29);
 
