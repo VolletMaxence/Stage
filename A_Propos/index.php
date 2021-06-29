@@ -30,7 +30,7 @@
                 <p> Dimanche : 9h - 12h30</p>
             </div>
 
-            <img class="magazin" src="../Image/test/Devanture_Au_Grain_de_Pollen_Fleuriste_Les_Grandes_Ventes.JPG" alt="Devanture du magasin 'Au Grain de Pollen', fleuriste au Grandes-Ventes">
+            <img class="magazin" src="../Image/A_Propos/Devanture_Au_Grain_de_Pollen_Fleuriste_Les_Grandes_Ventes_2.JPG" alt="Devanture du magasin 'Au Grain de Pollen', fleuriste au Grandes-Ventes">
 
         </div>
         <?php
