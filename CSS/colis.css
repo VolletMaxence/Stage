@@ -1,0 +1,243 @@
+body {
+    background-color: rgb(56, 56, 56);
+    z-index: 1;
+    color: #FF00FF;
+}
+
+div.InfoColis {
+    font-size: 130%;
+    margin-top: -40%;
+    margin-left: 14%;
+    text-align: center;
+    font-weight: bolder;
+}
+
+div.Important {
+    font-size: 150%;
+}
+
+@media screen and (min-width: 1800px) {
+    div.InfoColis {
+        font-size: 140%;
+        margin-top: -40%;
+        margin-left: 5%;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    div.Important {
+        font-size: 150%;
+        font-weight: bolder;
+    }
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1400px) {
+    div.InfoColis {
+        font-size: 135%;
+        margin-top: 10%;
+        margin-left: 17%;
+        text-align: center;
+    }
+    
+    div.Important {
+        font-size: 155%;
+    }
+}
+
+@media screen and (max-width: 1020px) and (min-width: 800px) {
+    div.InfoColis {
+        font-size: 100%;
+        margin-top: 0%;
+        margin-left: 0%;
+        text-align: center;
+    }
+    
+    div.Important {
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 667px) {
+    div.InfoColis {
+        font-size: 125%;
+        margin-top: 14%;
+        margin-left: 7%;
+        text-align: center;
+        width: 85%;
+    }
+    
+    div.Important {
+        font-size: 135%;
+    }
+}
+
+@media screen and (max-width: 667px) and (min-width: 600px) {
+    div.InfoColis {
+        font-size: 115%;
+        margin-top: 0%;
+        margin-left: 5%;
+        text-align: center;
+        width: 90%;
+    }
+    
+    div.Important {
+        font-size: 130%;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 575px) {
+    div.InfoColis {
+        font-size: 115%;
+        margin-top: 0%;
+        margin-left: 5%;
+        text-align: center;
+    }
+    
+    div.Important {
+        font-size: 125%;
+    }
+}
+
+@media screen and (max-width: 575px) and (min-width: 530px){
+    div.InfoColis {
+        font-size: 100%;
+        margin-top: 0%;
+        margin-left: 0%;
+        text-align: center;
+    }
+    
+    div.Important {
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 530px) and (min-width: 490px) {
+    div.InfoColis {
+        font-size: 100%;
+        margin-top: 0%;
+        margin-left: 0%;
+        text-align: center;
+    }
+    
+    div.Important {
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 490px) and (min-width: 455px) {
+    div.InfoColis {
+        font-size: 100%;
+        margin-top: 0%;
+        margin-left: 0%;
+        text-align: center;
+    }
+    
+    div.Important {
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 455px) and (min-width: 420px) {
+    div.InfoColis {
+        font-size: 100%;
+        margin-top: 0%;
+        margin-left: 0%;
+        text-align: center;
+    }
+    
+    div.Important {
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 420px) and (min-width: 410px){
+    div.InfoColis {
+        font-size: 100%;
+        margin-top: 0%;
+        margin-left: 0%;
+        text-align: center;
+    }
+    
+    div.Important {
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 410px) and (min-width: 370px){
+    div.InfoColis {
+        font-size: 100%;
+        margin-top: 0%;
+        margin-left: 0%;
+        text-align: center;
+    }
+    
+    div.Important {
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 370px) and (min-width: 350px){
+    div.InfoColis {
+        font-size: 100%;
+        margin-top: 0%;
+        margin-left: -2%;
+        text-align: center;
+    }
+    
+    div.Important {
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 350px) and (min-width: 321px){
+    div.InfoColis {
+        font-size: 100%;
+        margin-top: 0%;
+        margin-left: 0%;
+        text-align: center;
+    }
+    
+    div.Important {
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 321px) and (min-width: 300px){
+    div.InfoColis {
+        font-size: 100%;
+        margin-top: 0%;
+        margin-left: 0%;
+        text-align: center;
+    }
+    
+    div.Important {
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 300px) and (min-width: 270px){
+    div.InfoColis {
+        font-size: 100%;
+        margin-top: 0%;
+        margin-left: 0%;
+        text-align: center;
+    }
+    
+    div.Important {
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 270px) {
+    div.InfoColis {
+        font-size: 80%;
+        margin-top: 0%;
+        margin-left: 0%;
+        text-align: center;
+    }
+    
+    div.Important {
+        font-size: 90%;
+    }
+}
+
