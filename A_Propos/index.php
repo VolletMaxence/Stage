@@ -80,22 +80,22 @@
                     if ($Heure >= 9 && $Heure < 12) //Matin
                     {
                         $Ouverture = "Le magasin est ouvert.";
-                    } if ($Heure = 12)
+                    } else if ($Heure == 12)
                     {
-                        if ($Heure = 12 && $Minute > 30)
+                        if ($Minute > 30)
                         {
                             $Ouverture = "Le magasin est fermé, il réouvrira à 14h30.";
                         } else
                         {
                             $Ouverture = "Le magasin est ouvert.";
                         }
-                    } if ($Heure >= 13 && $Heure < 14) //Entre deux
+                    } else if ($Heure >= 13 && $Heure < 14) //Entre deux
                     {
                         $Ouverture = "Le magasin est fermé, il réouvrira à 14h30.";
-                    } if ($Heure > 14 && $Heure < 19) //Après-midi
+                    } else if ($Heure > 14 && $Heure < 19) //Après-midi
                     {
                         $Ouverture = "Le magasin est ouvert.";
-                    } if ($Heure = 14) //14h
+                    } else if ($Heure == 14) //14h
                     {
                         if ($Minute < 30)
                         {
