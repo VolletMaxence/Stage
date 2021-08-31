@@ -1,0 +1,255 @@
+div.form_administration {
+    font-size: larger;
+    font-weight: bold;
+    width: 500px;
+    height: 200px;
+}
+
+select {
+    font-size: x-large;
+    font-weight: bold;
+    width: 375px;
+    height: 100px;
+}
+
+label {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+input[type="file"] {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+button[type="submit"] {
+    width: 200px;
+    height: 100px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+img.petite_image {
+    width: 250px;
+    height: 250px;
+}
+
+div.info {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(56, 56, 56);
+    z-index: 1;
+    color: #FF00FF;
+}
+
+
+/* Mettre toutes les images a la même taille */
+img.image_presentation {
+    width: 300px;
+    height: 300px;
+    padding: 1px;
+    transition: all 0.75s ease;
+}
+
+img.image_presentation:hover {
+    padding: 1px;
+    display: block;
+    float: none;
+    transform: scale(1.11);
+    transition: all 0.75s ease;
+}
+
+div.image1 {
+    margin-top: 0%;
+    text-align: center;
+    position: absolute;
+    margin-left: 15%;
+}
+
+div.image2 {
+    margin-top: 0%;
+    text-align: center;
+    position: absolute;
+    margin-left: 36%;
+}
+div.image3 {
+    margin-top: 0%;
+    text-align: center;
+    position: absolute;
+    margin-left: 57%;
+}
+
+div.image4 {
+    margin-top: 25%;
+    text-align: center;
+    position: absolute;
+    margin-left: 15%;
+}
+div.image5 {
+    margin-top: 25%;
+    text-align: center;
+    position: absolute;
+    margin-left: 36%;
+}
+
+div.image6 {
+    margin-top: 25%;
+    text-align: center;
+    position: absolute;
+    margin-left: 57%;
+}
+div.image7 {
+    margin-top: 50%;
+    text-align: center;
+    position: absolute;
+    margin-left: 15%;
+}
+div.image8 {
+    margin-top: 50%;
+    text-align: center;
+    position: absolute;
+    margin-left: 36%;
+}
+
+div.image9 {
+    margin-top: 50%;
+    text-align: center;
+    position: absolute;
+    margin-left: 57%;
+}
+div.image10 {
+    margin-top: 75%;
+    text-align: center;
+    position: absolute;
+    margin-left: 15%;
+}
+div.image11 {
+    margin-top: 75%;
+    text-align: center;
+    position: absolute;
+    margin-left: 36%;
+}
+
+div.image12 {
+    margin-top: 75%;
+    text-align: center;
+    position: absolute;
+    margin-left: 57%;
+}
+
+div.image13 {
+    margin-top: 100%;
+    text-align: center;
+    position: absolute;
+    margin-left: 15%;
+}
+div.image14 {
+    margin-top: 100%;
+    text-align: center;
+    position: absolute;
+    margin-left: 36%;
+}
+div.image15 {
+    margin-top: 100%;
+    text-align: center;
+    position: absolute;
+    margin-left: 57%;
+}
+
+div.image16 {
+    margin-top: 125%;
+    text-align: center;
+    position: absolute;
+    margin-left: 15%;
+}
+div.image17 {
+    margin-top: 125%;
+    text-align: center;
+    position: absolute;
+    margin-left: 36%;
+}
+div.image18 {
+    margin-top: 125%;
+    text-align: center;
+    position: absolute;
+    margin-left: 57%;
+}
+
+div.image19 {
+    margin-top: 150%;
+    text-align: center;
+    position: absolute;
+    margin-left: 15%;
+}
+div.image20 {
+    margin-top: 150%;
+    text-align: center;
+    position: absolute;
+    margin-left: 36%;
+}
+div.image21 {
+    margin-top: 150%;
+    text-align: center;
+    position: absolute;
+    margin-left: 57%;
+}
+
+div.image22 {
+    margin-top: 175%;
+    text-align: center;
+    position: absolute;
+    margin-left: 15%;
+}
+div.image23 {
+    margin-top: 175%;
+    text-align: center;
+    position: absolute;
+    margin-left: 36%;
+}
+div.image24 {
+    margin-top: 175%;
+    text-align: center;
+    position: absolute;
+    margin-left: 57%;
+}
+
+div.image25 {
+    margin-top: 200%;
+    text-align: center;
+    position: absolute;
+    margin-left: 15%;
+}
+div.image26 {
+    margin-top: 200%;
+    text-align: center;
+    position: absolute;
+    margin-left: 36%;
+}
+div.image27 {
+    margin-top: 200%;
+    text-align: center;
+    position: absolute;
+    margin-left: 57%;
+}
+
+div.image28 {
+    margin-top: 225%;
+    text-align: center;
+    position: absolute;
+    margin-left: 15%;
+}
+div.image29 {
+    margin-top: 225%;
+    text-align: center;
+    position: absolute;
+    margin-left: 36%;
+}
+div.image30 {
+    margin-top: 225%;
+    text-align: center;
+    position: absolute;
+    margin-left: 57%;
+}

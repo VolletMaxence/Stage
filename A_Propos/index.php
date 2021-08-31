@@ -66,7 +66,7 @@
                     if ($Heure >= 9 && $Heure < 12)
                     {
                         $Ouverture = "Le magasin est ouvert.";
-                    } else if ($Heure = 12 && $Minute < 30)
+                    } else if ($Heure == 12 && $Minute < 30)
                     {
                         $Ouverture = "Le magasin est ouvert.";
                     }

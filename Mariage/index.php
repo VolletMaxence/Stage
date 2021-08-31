@@ -114,57 +114,6 @@
 
         <div class=image30>
             <img class="image_presentation" src="../Image/Mariage/Composition_Floral_Mariage_Au_Grain_de_Pollen_30.JPG" alt="Composition Floral Mariage 30">
-        </div> 
-        <div class=image31>
-            <img class="image_presentation" src="../Image/Mariage/Composition_Floral_Mariage_Au_Grain_de_Pollen_31.JPG" alt="Composition Floral Mariage 31">
-        </div> 
-        <div class=image32>
-            <img class="image_presentation" src="../Image/Mariage/Composition_Floral_Mariage_Au_Grain_de_Pollen_32.JPG" alt="Composition Floral Mariage 32">
-        </div> 
-
-        <div class=image33>
-            <img class="image_presentation" src="../Image/Mariage/Composition_Floral_Mariage_Au_Grain_de_Pollen_33.JPG" alt="Composition Floral Mariage 33">
-        </div> 
-        <div class=image34>
-            <img class="image_presentation" src="../Image/Mariage/Composition_Floral_Mariage_Au_Grain_de_Pollen_34.JPG" alt="Composition Floral Mariage 34">
-        </div> 
-        <div class=image35>
-            <img class="image_presentation" src="../Image/Mariage/Composition_Floral_Mariage_Au_Grain_de_Pollen_35.JPG" alt="Composition Floral Mariage 35">
         </div>
-
-        <div class=image36>
-            <img class="image_presentation" src="../Image/Mariage/Composition_Floral_Mariage_Au_Grain_de_Pollen_36.JPG" alt="Composition Floral Mariage 36">
-        </div> 
-        <div class=image37>
-            <img class="image_presentation" src="../Image/Mariage/Composition_Floral_Mariage_Au_Grain_de_Pollen_37.JPG" alt="Composition Floral Mariage 37">
-        </div> 
-        <div class=image38>
-            <img class="image_presentation" src="../Image/Mariage/Composition_Floral_Mariage_Au_Grain_de_Pollen_38.JPG" alt="Composition Floral Mariage 38">
-        </div>
-
-        <div class=image39>
-            <img class="image_presentation" src="../Image/Mariage/Composition_Floral_Mariage_Au_Grain_de_Pollen_39.JPG" alt="Composition Floral Mariage 39">
-        </div> 
-        <div class=image40>
-            <img class="image_presentation" src="../Image/Mariage/Composition_Floral_Mariage_Au_Grain_de_Pollen_40.JPG" alt="Composition Floral Mariage 40">
-        </div> 
-        <div class=image41>
-            <img class="image_presentation" src="../Image/Mariage/Composition_Floral_Mariage_Au_Grain_de_Pollen_41.JPG" alt="Composition Floral Mariage 41">
-        </div>
-
-        <div class=image42>
-            <img class="image_presentation" src="../Image/Mariage/Composition_Floral_Mariage_Au_Grain_de_Pollen_42.JPG" alt="Composition Floral Mariage 42">
-        </div> 
-        <div class=image43>
-            <img class="image_presentation" src="../Image/Mariage/Composition_Floral_Mariage_Au_Grain_de_Pollen_43.JPG" alt="Composition Floral Mariage 43">
-        </div> 
-        <div class=image44>
-            <img class="image_presentation" src="../Image/Mariage/Composition_Floral_Mariage_Au_Grain_de_Pollen_44.JPG" alt="Composition Floral Mariage 44">
-        </div>
-
-        <div class=image45>
-            <img class="image_presentation" src="../Image/Mariage/Composition_Floral_Mariage_Au_Grain_de_Pollen_45.JPG" alt="Composition Floral Mariage 45">
-        </div>
-
     </body>
 </html>
