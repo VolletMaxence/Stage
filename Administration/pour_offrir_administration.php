@@ -16,7 +16,7 @@
     <body>
         <?php
             $path = getcwd();
-            //echo $Path;
+            //echo $path;
             include "menu_administration.php";
         ?>
         <form class="form_administration" method="POST" enctype='multipart/form-data'>
@@ -27,36 +27,36 @@
             <p>
                 <select name="choix_image">
                     <option value=nada> --- Sélectionez une image --- </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_1.JPG>Image 1 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_2.JPG>Image 2 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_3.JPG>Image 3 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_4.JPG>Image 4 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_5.JPG>Image 5 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_6.JPG>Image 6 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_7.JPG>Image 7 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_8.JPG>Image 8 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_9.JPG>Image 9 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_10.JPG>Image 10 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_11.JPG>Image 11 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_12.JPG>Image 12 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_13.JPG>Image 13 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_14.JPG>Image 14 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_15.JPG>Image 15 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_16.JPG>Image 16 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_17.JPG>Image 17 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_18.JPG>Image 18 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_19.JPG>Image 19 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_20.JPG>Image 20 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_21.JPG>Image 21 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_22.JPG>Image 22 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_23.JPG>Image 23 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_24.JPG>Image 24 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_25.JPG>Image 25 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_26.JPG>Image 26 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_27.JPG>Image 27 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_28.JPG>Image 28 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_29.JPG>Image 29 </option>
-                    <option value=/home/xencev/www/Stage/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_30.JPG>Image 30 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_1.JPG>Image 1 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_2.JPG>Image 2 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_3.JPG>Image 3 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_4.JPG>Image 4 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_5.JPG>Image 5 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_6.JPG>Image 6 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_7.JPG>Image 7 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_8.JPG>Image 8 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_9.JPG>Image 9 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_10.JPG>Image 10 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_11.JPG>Image 11 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_12.JPG>Image 12 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_13.JPG>Image 13 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_14.JPG>Image 14 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_15.JPG>Image 15 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_16.JPG>Image 16 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_17.JPG>Image 17 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_18.JPG>Image 18 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_19.JPG>Image 19 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_20.JPG>Image 20 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_21.JPG>Image 21 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_22.JPG>Image 22 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_23.JPG>Image 23 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_24.JPG>Image 24 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_25.JPG>Image 25 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_26.JPG>Image 26 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_27.JPG>Image 27 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_28.JPG>Image 28 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_29.JPG>Image 29 </option>
+                    <option value=/home/xencev/www/Image/Pour_Offrir/Composition_Floral_Pour_Offrir_Au_Grain_de_Pollen_30.JPG>Image 30 </option>
                 </select>
             </p>
             <p>
