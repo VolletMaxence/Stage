@@ -37,11 +37,11 @@ div.info {
 body {
     background-color: rgb(56, 56, 56);
     z-index: 1;
-    color: #FF00FF;
+    color: #f8a5c2;
 }
 
 a {
-    color: #FF00FF;;
+    color: #f8a5c2;;
 }
 
 /* Mettre toutes les images a la même taille */
