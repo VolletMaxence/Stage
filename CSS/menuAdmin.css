@@ -1,5 +1,5 @@
 body {
-    font-size: 120%;
+    font-size: 150%;
 }
 
 /* Menus et titre supérieurs */
@@ -19,7 +19,33 @@ a:link {
     text-decoration: none;
 }
 
+div.info {
+    font-size: smaller;
+    text-align: right;
+    margin: auto;
+    /* Aligner verticalement le texte */
+    vertical-align: middle;
+}
 
+/* Taille image des infos */
+img#Facebook {
+    width: 32px;
+    height: 32px;
+}
+img#Telephone {
+    width: 32px;
+    height: 32px;
+}
+img#Adresse {
+    width: 32px;
+    height: 32px;
+}
+
+nav {
+    margin-top: -1%;
+    position: fixed;
+    z-index: 20;
+}
 
 #menu li a {
     display: block;
@@ -52,23 +78,14 @@ a:link {
 
 @media screen and (min-width: 1025px) {
     /* texte "Au Grain de Pollen */
-    h1 {
-        font-size: 190%;
-        color: #FF00FF;
-        text-align: center;
-        margin-top: 50%;
-        /* Texte à la verticale */
-        text-orientation: upright;
-        writing-mode: vertical-lr;
-    }
     #menu {
         display: inline;
-        width: 75%;
+        width: 100%;
         font-size: large;
         position: absolute;
         text-align: center;
-        margin-left: 10%;
-        margin-top: -50%;
+        left: 30%;
+        margin-top: 0%;
     }
     #menu ul {
         margin: 0;

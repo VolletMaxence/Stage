@@ -112,5 +112,9 @@
         <div class=image29>
             <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_29.JPG" alt="Composition Floral Deuil 29">
         </div>
+
+        <div class=image30>
+            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_30.JPG" alt="Composition Floral Deuil 30">
+        </div>
     </body>
 </html>

@@ -1,3 +1,6 @@
+<?php
+    require "session.php";
+?>
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -15,19 +18,25 @@
     </head>
     <body>
         <?php 
+        if($_SESSION && $_SESSION['Connect'] ==true)
+        { 
             include "menu_administration.php"; 
-        ?>
-        <p>
-            <a href="pour_offrir_administration.php"> Lien Administration Section "Pour Offrir" </a>
-        </p>
+            ?>
+            <p>
+                <a href="pour_offrir_administration.php"> Lien Administration Section "Pour Offrir" </a>
+            </p>
 
-        <p>
-            <a href="mariage_administration.php"> Lien Administration Section "Mariage" </a>
-        </p>
-        
-        <p>
-            <a href="deuil_administration.php"> Lien Administration Section "Deuil" </a>
-        </p>
+            <p>
+                <a href="mariage_administration.php"> Lien Administration Section "Mariage" </a>
+            </p>
+            
+            <p>
+                <a href="deuil_administration.php"> Lien Administration Section "Deuil" </a>
+            </p>
+        <?php
+        } else 
+        {
 
+        } ?>
     </body>
 </html>

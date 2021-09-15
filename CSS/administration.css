@@ -40,6 +40,9 @@ body {
     color: #FF00FF;
 }
 
+a {
+    color: #FF00FF;;
+}
 
 /* Mettre toutes les images a la même taille */
 img.image_presentation {

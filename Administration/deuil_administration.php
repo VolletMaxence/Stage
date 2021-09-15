@@ -1,3 +1,6 @@
+<?php
+    require "session.php";
+?>
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -14,7 +17,9 @@
         <meta name="description" content='Information sur le magazin "Au Grain de Pollen".'>
     </head>
     <body>
-        <?php
+        <?php        
+        if($_SESSION && $_SESSION['Connect'] ==true)
+        {
             $path = getcwd();
             //echo $path;
             include "menu_administration.php";
@@ -71,116 +76,131 @@
         //update : 7h17, après 9H de galère j ai reussi, nique ta mère PHP
             if(isset($_POST["PSubmit"]))
             { 
-                $infosfichier = pathinfo($_FILES['fichier']['name']);
-                $extension_upload = $infosfichier['extension'];
-                $extensions_autorisees = array('jpg', 'jpeg', 'gif', 'png');
-                if (in_array($extension_upload, $extensions_autorisees))
+                if (isset($_FILES['fichier']) AND $_FILES['fichier']['error'] == 0)
                 {
-                    move_uploaded_file($_FILES['fichier']['tmp_name'], $_POST['choix_image']);
-                    echo " Vous avez ajouté ".$_POST["choix_image"].", anciennement ".$_FILES['fichier']['name']." à la page 'Pour Offrir'.";
+                    //Extention autorisé ?
+                    $infosfichier = pathinfo($_FILES['fichier']['name']);
+                    $extension_upload = $infosfichier['extension'];
+                    $extensions_autorisees = array('jpg', 'jpeg', 'gif', 'png');
+                    if (in_array($extension_upload, $extensions_autorisees))
+                    {
+                        move_uploaded_file($_FILES['fichier']['tmp_name'], $_POST['choix_image']);
+                        echo " Vous avez ajouté ".$_POST["choix_image"].", anciennement ".$_FILES['fichier']['name']." à la page 'Pour Offrir'.";
+                    } else 
+                    {
+                        echo "Si l'image n'à pas été remplacer, il faut compresser l'image avec <a href=https://www.iloveimg.com/fr/compresser-image> ce site </a>";
+                    }
+                } else {
+                    echo $_FILES['fichier']['error'];
                 }
             }
         ?>
-        <!-- Toutes les images tel qu'elles sont montré sur la page -->
-        <div class=image1>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_1.JPG" alt="Composition Floral 'Pour Offrir' 1 n'existe pas">
-        </div> 
-        <div class=image2>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_2.JPG" alt="Composition Floral 'Pour Offrir' 2 n'existe pas">
-        </div> 
-        <div class=image3>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_3.JPG" alt="Composition Floral 'Pour Offrir' 3 n'existe pas">
-        </div> 
+            <!-- Toutes les images tel qu'elles sont montré sur la page -->
+            <div class=image1>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_1.JPG" alt="Composition Floral 'Pour Offrir' 1 n'existe pas">
+            </div> 
+            <div class=image2>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_2.JPG" alt="Composition Floral 'Pour Offrir' 2 n'existe pas">
+            </div> 
+            <div class=image3>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_3.JPG" alt="Composition Floral 'Pour Offrir' 3 n'existe pas">
+            </div> 
 
-        <div class=image4>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_4.JPG" alt="Composition Floral 'Pour Offrir' 4 n'existe pas">
-        </div> 
-        <div class=image5>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_5.JPG" alt="Composition Floral 'Pour Offrir' 5 n'existe pas">
-        </div> 
-        <div class=image6>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_6.JPG" alt="Composition Floral 'Pour Offrir' 6 n'existe pas">
-        </div>
+            <div class=image4>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_4.JPG" alt="Composition Floral 'Pour Offrir' 4 n'existe pas">
+            </div> 
+            <div class=image5>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_5.JPG" alt="Composition Floral 'Pour Offrir' 5 n'existe pas">
+            </div> 
+            <div class=image6>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_6.JPG" alt="Composition Floral 'Pour Offrir' 6 n'existe pas">
+            </div>
 
-        <div class=image7>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_7.JPG" alt="Composition Floral 'Pour Offrir' 7 n'existe pas">
-        </div> 
-        <div class=image8>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_8.JPG" alt="Composition Floral 'Pour Offrir' 8 n'existe pas">
-        </div> 
-        <div class=image9>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_9.JPG" alt="Composition Floral 'Pour Offrir' 9 n'existe pas">
-        </div>
+            <div class=image7>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_7.JPG" alt="Composition Floral 'Pour Offrir' 7 n'existe pas">
+            </div> 
+            <div class=image8>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_8.JPG" alt="Composition Floral 'Pour Offrir' 8 n'existe pas">
+            </div> 
+            <div class=image9>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_9.JPG" alt="Composition Floral 'Pour Offrir' 9 n'existe pas">
+            </div>
 
-        <div class=image10>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_10.JPG" alt="Composition Floral 'Pour Offrir' 10 n'existe pas">
-        </div> 
-        <div class=image11>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_11.JPG" alt="Composition Floral 'Pour Offrir' 11 n'existe pas">
-        </div> 
-        <div class=image12>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_12.JPG" alt="Composition Floral 'Pour Offrir' 12 n'existe pas">
-        </div>
+            <div class=image10>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_10.JPG" alt="Composition Floral 'Pour Offrir' 10 n'existe pas">
+            </div> 
+            <div class=image11>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_11.JPG" alt="Composition Floral 'Pour Offrir' 11 n'existe pas">
+            </div> 
+            <div class=image12>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_12.JPG" alt="Composition Floral 'Pour Offrir' 12 n'existe pas">
+            </div>
 
-        <div class=image13>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_13.JPG" alt="Composition Floral 'Pour Offrir' 13 n'existe pas">
-        </div> 
-        <div class=image14>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_14.JPG" alt="Composition Floral 'Pour Offrir' 14 n'existe pas">
-        </div> 
-        <div class=image15>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_15.JPG" alt="Composition Floral 'Pour Offrir' 15 n'existe pas">
-        </div> 
+            <div class=image13>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_13.JPG" alt="Composition Floral 'Pour Offrir' 13 n'existe pas">
+            </div> 
+            <div class=image14>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_14.JPG" alt="Composition Floral 'Pour Offrir' 14 n'existe pas">
+            </div> 
+            <div class=image15>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_15.JPG" alt="Composition Floral 'Pour Offrir' 15 n'existe pas">
+            </div> 
 
-        <div class=image16>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_16.jpg" alt="Composition Floral 'Pour Offrir' 16 n'existe pas">
-        </div> 
-        <div class=image17>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_17.JPG" alt="Composition Floral 'Pour Offrir' 17 n'existe pas">
-        </div> 
-        <div class=image18>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_18.JPG" alt="Composition Floral 'Pour Offrir' 18 n'existe pas">
-        </div>
+            <div class=image16>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_16.jpg" alt="Composition Floral 'Pour Offrir' 16 n'existe pas">
+            </div> 
+            <div class=image17>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_17.JPG" alt="Composition Floral 'Pour Offrir' 17 n'existe pas">
+            </div> 
+            <div class=image18>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_18.JPG" alt="Composition Floral 'Pour Offrir' 18 n'existe pas">
+            </div>
 
-        <div class=image19>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_19.JPG" alt="Composition Floral 'Pour Offrir' 19 n'existe pas">
-        </div> 
-        <div class=image20>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_20.JPG" alt="Composition Floral 'Pour Offrir' 20 n'existe pas">
-        </div> 
-        <div class=image21>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_21.JPG" alt="Composition Floral 'Pour Offrir' 21 n'existe pas">
-        </div>
+            <div class=image19>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_19.JPG" alt="Composition Floral 'Pour Offrir' 19 n'existe pas">
+            </div> 
+            <div class=image20>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_20.JPG" alt="Composition Floral 'Pour Offrir' 20 n'existe pas">
+            </div> 
+            <div class=image21>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_21.JPG" alt="Composition Floral 'Pour Offrir' 21 n'existe pas">
+            </div>
 
-        <div class=image22>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_22.JPG" alt="Composition Floral 'Pour Offrir' 22 n'existe pas">
-        </div> 
-        <div class=image23>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_23.JPG" alt="Composition Floral 'Pour Offrir' 23 n'existe pas">
-        </div> 
-        <div class=image24>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_24.JPG" alt="Composition Floral 'Pour Offrir' 24 n'existe pas">
-        </div>
+            <div class=image22>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_22.JPG" alt="Composition Floral 'Pour Offrir' 22 n'existe pas">
+            </div> 
+            <div class=image23>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_23.JPG" alt="Composition Floral 'Pour Offrir' 23 n'existe pas">
+            </div> 
+            <div class=image24>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_24.JPG" alt="Composition Floral 'Pour Offrir' 24 n'existe pas">
+            </div>
 
-        <div class=image25>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_25.JPG" alt="Composition Floral 'Pour Offrir' 25 n'existe pas">
-        </div>
-        <div class=image26>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_26.JPG" alt="Composition Floral 'Pour Offrir' 26 n'existe pas">
-        </div>
-        <div class=image27>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_27.JPG" alt="Composition Floral 'Pour Offrir' 27 n'existe pas">
-        </div>
+            <div class=image25>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_25.JPG" alt="Composition Floral 'Pour Offrir' 25 n'existe pas">
+            </div>
+            <div class=image26>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_26.JPG" alt="Composition Floral 'Pour Offrir' 26 n'existe pas">
+            </div>
+            <div class=image27>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_27.JPG" alt="Composition Floral 'Pour Offrir' 27 n'existe pas">
+            </div>
 
-        <div class=image28>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_28.JPG" alt="Composition Floral 'Pour Offrir' 28 n'existe pas">
-        </div>
-        <div class=image29>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_29.JPG" alt="Composition Floral 'Pour Offrir' 29 n'existe pas">
-        </div>
+            <div class=image28>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_28.JPG" alt="Composition Floral 'Pour Offrir' 28 n'existe pas">
+            </div>
+            <div class=image29>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_29.JPG" alt="Composition Floral 'Pour Offrir' 29 n'existe pas">
+            </div>
 
-        <div class=image30>
-            <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_30.JPG" alt="Composition Floral 'Pour Offrir' 30 n'existe pas">
-        </div>
+            <div class=image30>
+                <img class="image_presentation" src="../Image/Deuil/Composition_Floral_Deuil_Au_Grain_de_Pollen_30.JPG" alt="Composition Floral 'Pour Offrir' 30 n'existe pas">
+            </div>
+        <?php
+        } else 
+        {
+
+        }
+        ?>
     </body>
 </html>
