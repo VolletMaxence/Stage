@@ -25,7 +25,7 @@ a:link {
     display: block;
     text-decoration: none;
     padding: 5px;
-    color: #FF69B4;
+    color: #f78fb3;
 }
 
 /* couleur lorsque la souris est dessus */
@@ -82,7 +82,7 @@ a:link {
         padding: 0;
         list-style: none;
         text-align: center;
-        color: #FF69B4;
+        color: #f78fb3;
         width: 125px;
     } 
 }
@@ -116,7 +116,7 @@ a:link {
         padding: 0;
         list-style: none;
         text-align: center;
-        color: #FF69B4;
+        color: #f78fb3;
         width: 125px;
         background-color: rgb(56, 56, 56);
     } 
@@ -170,7 +170,7 @@ a:link {
         padding: 0;
         list-style: none;
         text-align: center;
-        color: #FF69B4;
+        color: #f78fb3;
         width: 125px;
     } 
 }
@@ -212,7 +212,7 @@ a:link {
         padding: 0;
         list-style: none;
         text-align: center;
-        color: #FF69B4;
+        color: #f78fb3;
         width: 175px;
 
     }
@@ -254,7 +254,7 @@ a:link {
         padding: 0;
         list-style: none;
         text-align: center;
-        color: #FF69B4;
+        color: #f78fb3;
         width: 175px;
 
     }
@@ -298,7 +298,7 @@ a:link {
         padding: 0;
         list-style: none;
         text-align: center;
-        color: #FF69B4;
+        color: #f78fb3;
         width: 100px;
     }
     #menu {
@@ -372,7 +372,7 @@ a:link {
         padding: 0;
         list-style-type: none;
         text-align: center;
-        color: #FF69B4;
+        color: #f78fb3;
         width: 80px;
         font-size: small;
     }
@@ -427,7 +427,7 @@ a:link {
         padding: 0;
         list-style-type: none;
         text-align: center;
-        color: #FF69B4;
+        color: #f78fb3;
         width: 80px;
         font-size: small;
     }
@@ -482,7 +482,7 @@ a:link {
         padding: 0;
         list-style-type: none;
         text-align: center;
-        color: #FF69B4;
+        color: #f78fb3;
         width: 80px;
         font-size: small;
     }
