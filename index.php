@@ -9,7 +9,10 @@
         <link rel="stylesheet" href="CSS/index.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content='Site du fleuriste "Au Grain de Pollen", situé au Grandes-Ventes.'>
+        <meta name="description" content="Dans un océan de verdure et une ambiance chaleureuse, Agnès et Julliette vous prodiguent leurs conseil pour le choix de vos compositions.
+        Que votre style de prédilection soit moderne ou classique, votre budget modeste ou généreux, elles vous guident afin d'harmoniser vos bouquets et agensements floraux.
+        La vie est une succession d'événement dans les bons et les mauvais moment. Les fleurs ponctuent chacun d'eux. Agnès et Julliette vous accompagnent en toute circonstance.
+        Vous habitez les Grandes-Ventes ? La livraison est gratuite. En périphérie, une contribution modérer vous sera demandée.">
         <!-- Script pour le deffilement d'image -->
         <script src="JS/index.js"> </script>
         <!-- Titre -->

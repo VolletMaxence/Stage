@@ -19,8 +19,6 @@ a:link {
     text-decoration: none;
 }
 
-
-
 #menu li a {
     display: block;
     text-decoration: none;
@@ -75,6 +73,7 @@ a:link {
         padding: 0;
         list-style-type: none;
         display: inline-block;
+        z-index : 4;
     }
     #menu li {
         float: left;
@@ -85,6 +84,15 @@ a:link {
         color: #f78fb3;
         width: 125px;
     } 
+
+    div.info {
+        font-size: smaller;
+        text-align: right;
+        margin: auto;
+        /*display: none;
+        /* Aligner verticalement le texte */
+        vertical-align: middle;
+    }
 }
 /* Ecran "vide" : rajouter image caché ? */
 
@@ -109,6 +117,7 @@ a:link {
         padding: 0;
         list-style-type: none;
         display: inline-block;
+        z-index : 4;
     }
     #menu li {
         float: left;
@@ -163,6 +172,7 @@ a:link {
         padding: 0;
         list-style-type: none;
         display: inline-block;
+        z-index : 4;
     }
     #menu li {
         float: left;
@@ -205,6 +215,7 @@ a:link {
         padding: 0;
         list-style-type: none;
         display: inline-block;
+        z-index : 4;
     }
     #menu li {
         float: left;
@@ -247,6 +258,7 @@ a:link {
         padding: 0;
         list-style-type: none;
         display: inline-block;
+        z-index : 4;
     }
     #menu li {
         float: left;
