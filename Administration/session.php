@@ -6,8 +6,8 @@
 
         }else{
             //Demande client de ne pas utiliser de BDD
-            $Nom_XenceV = "XenceV";
-            $MdP_XenceV = "Tallys2001";
+            $Nom_XenceV = "";
+            $MdP_XenceV = "";
 
             $Nom_Agnes = "";    // A Changer 
             $MdP_Agnes = "";   // A Changer
